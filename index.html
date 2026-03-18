@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📱 Phones I Used — My Phone Timeline</title>
+  <meta name="description"
+    content="Create and share a visual timeline of all the phones you've ever used. A fun nostalgia trip!" />
+
+  <!-- OG Meta -->
+  <meta property="og:title" content="📱 Phones I Used — My Phone Timeline" />
+  <meta property="og:description"
+    content="Check out the phones I've used over the years! Create your own timeline and share it." />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="📱 Phones I Used — My Phone Timeline" />
+  <meta name="twitter:description" content="Check out the phones I've used over the years!" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📱</text></svg>" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f0ff',
+              100: '#e0e1ff',
+              200: '#c7c8fe',
+              300: '#a4a5fc',
+              400: '#8183f8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+              950: '#1e1b4b',
+            }
+          },
+          animation: {
+            'fade-up': 'fadeUp 0.6s ease-out forwards',
+            'fade-in': 'fadeIn 0.4s ease-out forwards',
+            'pulse-slow': 'pulse 3s ease-in-out infinite',
+          },
+          keyframes: {
+            fadeUp: {
+              '0%': { opacity: '0', transform: 'translateY(24px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.3);
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(99, 102, 241, 0.5);
+    }
+
+    /* Glass card */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Dot glow */
+    .dot-glow {
+      box-shadow: 0 0 12px rgba(99, 102, 241, 0.6), 0 0 24px rgba(168, 85, 247, 0.3);
+    }
+
+    /* Input glow on focus */
+    input:focus {
+      box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+    }
+
+    /* ─── Horizontal Timeline ─────────────────────────── */
+    .h-timeline-wrap {
+      overflow-x: auto;
+      overflow-y: visible;
+      cursor: grab;
+      -webkit-overflow-scrolling: touch;
+      padding: 0 32px;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(99, 102, 241, 0.3) transparent;
+    }
+
+    .h-timeline-wrap:active {
+      cursor: grabbing;
+    }
+
+    .h-timeline-wrap::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .h-timeline-wrap::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.25);
+      border-radius: 2px;
+    }
+
+    .h-timeline {
+      display: flex;
+      align-items: center;
+      position: relative;
+      min-height: 340px;
+      padding: 10px 0;
+    }
+
+    /* The horizontal connector line */
+    .h-timeline::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(to right, #6366f1, #a855f7, #ec4899, #f43f5e);
+      transform: translateY(-50%);
+      border-radius: 2px;
+    }
+
+    /* Individual entry column */
+    .h-entry {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      flex-shrink: 0;
+      width: 200px;
+      opacity: 0;
+    }
+
+    .h-entry.visible {
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+
+    /* Card above or below */
+    .h-entry .h-card {
+      position: absolute;
+      width: 180px;
+    }
+
+    .h-entry .h-card.above {
+      bottom: calc(50% + 28px);
+    }
+
+    .h-entry .h-card.below {
+      top: calc(50% + 28px);
+    }
+
+    /* Connector stick from dot to card */
+    .h-entry .h-stick {
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      background: rgba(255, 255, 255, 0.15);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .h-entry .h-stick.above {
+      bottom: calc(50% + 8px);
+    }
+
+    .h-entry .h-stick.below {
+      top: calc(50% + 8px);
+    }
+
+    /* Dot on the line */
+    .h-dot {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-gray-950 via-brand-950 to-gray-900 text-white font-sans antialiased">
+
+  <!-- Hero / Header -->
+  <header class="text-center pt-12 pb-6 px-4">
+    <h1 class="text-5xl md:text-6xl font-black tracking-tight animate-fade-in">
+      <span class="bg-gradient-to-r from-brand-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Phones I
+        Used</span>
+    </h1>
+    <p class="mt-3 text-lg md:text-xl text-gray-400 max-w-xl mx-auto animate-fade-in" style="animation-delay:0.15s">
+      Build a timeline of every phone you've ever owned and share the nostalgia ✨
+    </p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-4 pb-20">
+
+    <!-- Input Panel -->
+    <section id="input-panel" class="glass-card rounded-2xl p-6 md:p-8 mb-12 animate-fade-in"
+      style="animation-delay:0.3s">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-white/90">📝 Add Your Phones</h2>
+        <button id="btn-add" onclick="addEntry()"
+          class="flex items-center gap-1.5 bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-4 py-2 rounded-xl transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path d="M12 5v14m-7-7h14" />
+          </svg>
+          Add Phone
+        </button>
+      </div>
+
+      <div id="entries-container" class="space-y-3">
+        <!-- Entry rows injected here -->
+      </div>
+
+      <button id="btn-generate" onclick="generateTimeline()"
+        class="mt-8 w-full bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-lg py-3.5 rounded-xl transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-brand-600/25 cursor-pointer">
+        🚀 Generate Timeline
+      </button>
+    </section>
+
+    <!-- Timeline Panel -->
+    <section id="timeline-panel" class="hidden">
+      <h2 class="text-2xl font-bold text-center mb-4 text-white/90">📱 My Phone Timeline</h2>
+      <p class="text-center text-gray-500 text-sm mb-8">← Scroll horizontally to explore →</p>
+
+      <div id="timeline-container" class="h-timeline-wrap">
+        <div id="timeline-entries" class="h-timeline">
+          <!-- Timeline cards injected here -->
+        </div>
+      </div>
+
+      <!-- Share Section -->
+      <div id="share-section" class="glass-card rounded-2xl p-6 md:p-8 mt-14">
+        <h3 class="text-lg font-bold text-center mb-4 text-white/90">🔗 Share Your Timeline</h3>
+        <div class="flex items-center gap-2 mb-5">
+          <input id="share-url" type="text" readonly
+            class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-gray-300 outline-none truncate" />
+          <button onclick="copyLink()" id="btn-copy"
+            class="bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-5 py-3 rounded-xl transition-all duration-200 hover:scale-105 active:scale-95 whitespace-nowrap cursor-pointer">
+            📋 Copy
+          </button>
+        </div>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a id="share-twitter" href="#" target="_blank" rel="noopener"
+            class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
+            𝕏 Post on X
+          </a>
+          <a id="share-whatsapp" href="#" target="_blank" rel="noopener"
+            class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
+            💬 WhatsApp
+          </a>
+          <a id="share-facebook" href="#" target="_blank" rel="noopener"
+            class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
+            📘 Facebook
+          </a>
+        </div>
+      </div>
+
+      <!-- Back / Edit button -->
+      <div class="text-center mt-8">
+        <button onclick="showEditor()"
+          class="text-gray-400 hover:text-white text-sm underline underline-offset-4 transition-colors cursor-pointer">
+          ← Edit your phones
+        </button>
+      </div>
+
+      <!-- Create Your Own CTA -->
+      <div class="text-center mt-10">
+        <button onclick="startFresh()"
+          class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-lg px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-brand-600/25 cursor-pointer">
+          ✨ Create Your Own Timeline
+        </button>
+        <p class="text-gray-500 text-xs mt-3">Build your own phone history and share it with friends!</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center pb-8 text-gray-600 text-xs">
+    Made with ❤️ for phone nostalgia · No data stored · Everything lives in the URL
+  </footer>
+
+  <script>
+    // ─── State ───────────────────────────────────────────────────────────
+    let entries = [];
+
+    // ─── Phone emoji bank for variety ────────────────────────────────────
+    const phoneEmojis = ['📱', '📲', '☎️', '📞', '🤳'];
+
+    // ─── DOM references ──────────────────────────────────────────────────
+    const entriesContainer = document.getElementById('entries-container');
+    const timelinePanel = document.getElementById('timeline-panel');
+    const inputPanel = document.getElementById('input-panel');
+    const timelineEntries = document.getElementById('timeline-entries');
+    const shareUrl = document.getElementById('share-url');
+    const shareTwitter = document.getElementById('share-twitter');
+    const shareWhatsapp = document.getElementById('share-whatsapp');
+    const shareFacebook = document.getElementById('share-facebook');
+
+    // ─── Entry management ────────────────────────────────────────────────
+    function addEntry(year = '', name = '') {
+      const id = Date.now() + Math.random();
+      entries.push({ id, year, name });
+      renderEntries();
+    }
+
+    function removeEntry(id) {
+      entries = entries.filter(e => e.id !== id);
+      renderEntries();
+    }
+
+    function renderEntries() {
+      entriesContainer.innerHTML = entries.map((entry, i) => `
+        <div class="flex items-center gap-3 animate-fade-in" data-id="${entry.id}">
+          <div class="flex items-center gap-1 text-gray-500 text-sm font-mono w-6 justify-end">${i + 1}.</div>
+          <input
+            type="number"
+            min="1980"
+            max="${new Date().getFullYear()}"
+            placeholder="Year"
+            value="${entry.year}"
+            oninput="updateEntry(${entry.id}, 'year', this.value)"
+            class="w-24 bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+          />
+          <input
+            type="text"
+            placeholder="Phone name (e.g. Nokia 3310)"
+            value="${entry.name}"
+            oninput="updateEntry(${entry.id}, 'name', this.value)"
+            class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+          />
+          <button onclick="removeEntry(${entry.id})" class="text-gray-600 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      `).join('');
+    }
+
+    function updateEntry(id, field, value) {
+      const entry = entries.find(e => e.id === id);
+      if (entry) entry[field] = value;
+    }
+
+    // ─── URL encoding / decoding ─────────────────────────────────────────
+    function encodeToHash() {
+      const valid = entries.filter(e => e.year && e.name.trim());
+      if (valid.length === 0) return '';
+      const encoded = valid
+        .map(e => `${e.year},${e.name.trim()}`)
+        .join('|');
+      return '#phones=' + encodeURIComponent(encoded);
+    }
+
+    function decodeFromHash() {
+      const hash = window.location.hash;
+      if (!hash || !hash.startsWith('#phones=')) return [];
+      const raw = decodeURIComponent(hash.slice('#phones='.length));
+      return raw.split('|').map(part => {
+        const commaIdx = part.indexOf(',');
+        if (commaIdx === -1) return null;
+        return {
+          id: Date.now() + Math.random(),
+          year: part.slice(0, commaIdx),
+          name: part.slice(commaIdx + 1),
+        };
+      }).filter(Boolean);
+    }
+
+    // ─── Timeline generation ─────────────────────────────────────────────
+    function generateTimeline() {
+      const valid = entries.filter(e => e.year && e.name.trim());
+      if (valid.length === 0) {
+        alert('Add at least one phone with a year and name!');
+        return;
+      }
+
+      // Sort chronologically
+      valid.sort((a, b) => Number(a.year) - Number(b.year));
+
+      // Update URL
+      const hash = encodeToHash();
+      window.location.hash = hash.slice(1); // remove leading #
+
+      // Render timeline
+      renderTimeline(valid);
+
+      // Show timeline, hide editor
+      inputPanel.classList.add('hidden');
+      timelinePanel.classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Update share links
+      const fullUrl = window.location.href;
+      shareUrl.value = fullUrl;
+
+      const shareText = encodeURIComponent(`📱 Check out the phones I've used over the years!`);
+      const shareLink = encodeURIComponent(fullUrl);
+      shareTwitter.href = `https://twitter.com/intent/tweet?text=${shareText}&url=${shareLink}`;
+      shareWhatsapp.href = `https://wa.me/?text=${shareText}%20${shareLink}`;
+      shareFacebook.href = `https://www.facebook.com/sharer/sharer.php?u=${shareLink}`;
+    }
+
+    function renderTimeline(phones) {
+      // Color palette for year badges
+      const colors = [
+        'from-brand-500 to-purple-500',
+        'from-purple-500 to-pink-500',
+        'from-pink-500 to-rose-500',
+        'from-amber-500 to-orange-500',
+        'from-emerald-500 to-teal-500',
+        'from-cyan-500 to-blue-500',
+        'from-blue-500 to-brand-500',
+      ];
+
+      timelineEntries.innerHTML = phones.map((phone, i) => {
+        const isAbove = i % 2 === 0;
+        const emoji = phoneEmojis[i % phoneEmojis.length];
+        const color = colors[i % colors.length];
+        const side = isAbove ? 'above' : 'below';
+
+        return `
+          <div class="h-entry" style="animation-delay:${i * 0.12}s">
+            <!-- Connector stick -->
+            <div class="h-stick ${side}"></div>
+
+            <!-- Card -->
+            <div class="h-card ${side}">
+              <div class="glass-card rounded-xl p-4 hover:bg-white/[0.08] transition-all duration-300 hover:scale-105 group text-center">
+                <span class="text-2xl group-hover:scale-110 inline-block transition-transform duration-300">${emoji}</span>
+                <h3 class="text-sm font-bold text-white/90 mt-1.5 leading-snug">${escapeHtml(phone.name)}</h3>
+              </div>
+            </div>
+
+            <!-- Dot on the line -->
+            <div class="h-dot">
+              <div class="w-12 h-12 bg-gray-900 border-[3px] border-brand-400 rounded-full flex items-center justify-center dot-glow">
+                <span class="text-[10px] font-black bg-gradient-to-r ${color} bg-clip-text text-transparent">${phone.year}</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Stagger animation
+      requestAnimationFrame(() => {
+        const entryEls = timelineEntries.querySelectorAll('.h-entry');
+        entryEls.forEach((el, i) => {
+          setTimeout(() => el.classList.add('visible'), i * 150);
+        });
+      });
+
+      // Drag-to-scroll
+      setupDragScroll(document.getElementById('timeline-container'));
+    }
+
+    // ─── Drag-to-scroll for horizontal timeline ──────────────────────────
+    function setupDragScroll(el) {
+      let isDown = false, startX, scrollLeft;
+      el.addEventListener('mousedown', e => {
+        isDown = true; el.style.cursor = 'grabbing';
+        startX = e.pageX - el.offsetLeft;
+        scrollLeft = el.scrollLeft;
+      });
+      el.addEventListener('mouseleave', () => { isDown = false; el.style.cursor = 'grab'; });
+      el.addEventListener('mouseup', () => { isDown = false; el.style.cursor = 'grab'; });
+      el.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        el.scrollLeft = scrollLeft - (e.pageX - el.offsetLeft - startX) * 1.5;
+      });
+    }
+
+    // ─── Show editor ─────────────────────────────────────────────────────
+    function showEditor() {
+      timelinePanel.classList.add('hidden');
+      inputPanel.classList.remove('hidden');
+    }
+
+    // ─── Start fresh (for visitors from shared links) ────────────────────
+    function startFresh() {
+      history.replaceState(null, '', window.location.pathname);
+      entries = [];
+      addEntry();
+      addEntry();
+      renderEntries();
+      timelinePanel.classList.add('hidden');
+      inputPanel.classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ─── Copy link ───────────────────────────────────────────────────────
+    function copyLink() {
+      navigator.clipboard.writeText(shareUrl.value).then(() => {
+        const btn = document.getElementById('btn-copy');
+        const original = btn.textContent;
+        btn.textContent = '✅ Copied!';
+        setTimeout(() => btn.textContent = original, 2000);
+      });
+    }
+
+    // ─── Escape HTML ─────────────────────────────────────────────────────
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // ─── Init ────────────────────────────────────────────────────────────
+    function init() {
+      const fromHash = decodeFromHash();
+      if (fromHash.length > 0) {
+        entries = fromHash;
+        renderEntries();
+        generateTimeline();
+      } else {
+        // Start with two empty rows
+        addEntry();
+        addEntry();
+      }
+    }
+
+    init();
+  </script>
+</body>
+
+</html>
