@@ -360,27 +360,32 @@
 
     function renderEntries() {
       entriesContainer.innerHTML = entries.map((entry, i) => `
-        <div class="flex items-center gap-3 animate-fade-in" data-id="${entry.id}">
-          <div class="flex items-center gap-1 text-gray-500 text-sm font-mono w-6 justify-end">${i + 1}.</div>
-          <input
-            type="number"
-            min="1980"
-            max="${new Date().getFullYear()}"
-            placeholder="Year"
-            value="${entry.year}"
-            oninput="updateEntry(${entry.id}, 'year', this.value)"
-            class="w-24 bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
-          />
-          <input
-            type="text"
-            placeholder="Phone name (e.g. Nokia 3310)"
-            value="${entry.name}"
-            oninput="updateEntry(${entry.id}, 'name', this.value)"
-            class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
-          />
-          <button onclick="removeEntry(${entry.id})" class="text-gray-600 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
-          </button>
+        <div class="animate-fade-in" data-id="${entry.id}">
+          <div class="flex items-center gap-3">
+            <div class="flex items-center gap-1 text-gray-500 text-sm font-mono w-6 justify-end">${i + 1}.</div>
+            <input
+              id="year-${entry.id}"
+              type="number"
+              min="1990"
+              max="2026"
+              placeholder="Year"
+              value="${entry.year}"
+              oninput="updateEntry(${entry.id}, 'year', this.value); clearError(${entry.id});"
+              onblur="(function(id, val){ var r=validateYear(val); if(!r.valid) showError(id,r.message); })(${entry.id}, this.value)"
+              class="w-24 bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+            />
+            <input
+              type="text"
+              placeholder="Phone name (e.g. Nokia 3310)"
+              value="${entry.name}"
+              oninput="updateEntry(${entry.id}, 'name', this.value)"
+              class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+            />
+            <button onclick="removeEntry(${entry.id})" class="text-gray-600 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <div id="error-${entry.id}" class="hidden text-red-400 text-xs ml-9 mt-1"></div>
         </div>
       `).join('');
     }
@@ -388,6 +393,61 @@
     function updateEntry(id, field, value) {
       const entry = entries.find(e => e.id === id);
       if (entry) entry[field] = value;
+    }
+
+    function validateYear(value) {
+      if (!value || value.toString().trim() === '') {
+        return { valid: false, message: 'Year required' };
+      }
+      const year = Number(value);
+      if (isNaN(year) || year < 1990 || year > 2026) {
+        return { valid: false, message: 'Enter year between 1990-2026' };
+      }
+      return { valid: true, message: '' };
+    }
+
+    function showError(entryId, message) {
+      const errorEl = document.getElementById('error-' + entryId);
+      const inputEl = document.getElementById('year-' + entryId);
+      if (errorEl) {
+        errorEl.textContent = message;
+        errorEl.classList.remove('hidden');
+      }
+      if (inputEl) {
+        inputEl.classList.add('border-red-400');
+      }
+    }
+
+    function clearError(entryId) {
+      const errorEl = document.getElementById('error-' + entryId);
+      const inputEl = document.getElementById('year-' + entryId);
+      if (errorEl) {
+        errorEl.textContent = '';
+        errorEl.classList.add('hidden');
+      }
+      if (inputEl) {
+        inputEl.classList.remove('border-red-400');
+      }
+    }
+
+    function validateAllEntries() {
+      let allValid = true;
+      let firstInvalidId = null;
+      for (const entry of entries) {
+        const result = validateYear(entry.year);
+        if (!result.valid) {
+          showError(entry.id, result.message);
+          if (!firstInvalidId) firstInvalidId = entry.id;
+          allValid = false;
+        } else {
+          clearError(entry.id);
+        }
+      }
+      if (firstInvalidId) {
+        const el = document.getElementById('year-' + firstInvalidId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      return allValid;
     }
 
     // ─── URL encoding / decoding ─────────────────────────────────────────
@@ -417,11 +477,9 @@
 
     // ─── Timeline generation ─────────────────────────────────────────────
     function generateTimeline() {
+      if (!validateAllEntries()) return;
       const valid = entries.filter(e => e.year && e.name.trim());
-      if (valid.length === 0) {
-        alert('Add at least one phone with a year and name!');
-        return;
-      }
+      if (valid.length === 0) return;
 
       // Sort chronologically
       valid.sort((a, b) => Number(a.year) - Number(b.year));
