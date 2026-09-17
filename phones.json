@@ -433,12 +433,6 @@
   },
   {
     "brand": "Apple",
-    "name": "Apple September 20, 2024",
-    "year": 2024,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 16",
     "year": 2024,
     "image": null
@@ -487,12 +481,6 @@
   },
   {
     "brand": "Apple",
-    "name": "Apple September 19, 2025",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "Apple iPhone 17e",
     "year": 2026,
     "image": null
@@ -510,56 +498,8 @@
     "image": null
   },
   {
-    "brand": "Apple",
-    "name": "Apple March 11, 2026",
-    "year": 2026,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple October 23, 2026",
-    "year": 2026,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "Apple September 18, 2026",
-    "year": 2026,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 857",
-    "year": 2000,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 957",
-    "year": 2000,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 5820",
-    "year": 2002,
-    "image": null
-  },
-  {
     "brand": "BlackBerry",
     "name": "BlackBerry 65XX",
-    "year": 2002,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 6720",
-    "year": 2002,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 6750",
     "year": 2002,
     "image": null
   },
@@ -573,30 +513,6 @@
     "brand": "BlackBerry",
     "name": "BlackBerry Early Java-based",
     "year": 2002,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 6220",
-    "year": 2003,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 6230",
-    "year": 2003,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7230",
-    "year": 2003,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7280",
-    "year": 2003,
     "image": null
   },
   {
@@ -619,12 +535,6 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry 6280",
-    "year": 2004,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry 7100r",
     "year": 2004,
     "image": null
@@ -637,31 +547,7 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry 7290",
-    "year": 2004,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7520",
-    "year": 2004,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry 75XX",
-    "year": 2004,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7750",
-    "year": 2004,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7780",
     "year": 2004,
     "image": null
   },
@@ -697,24 +583,6 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry 7130",
-    "year": 2005,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7250",
-    "year": 2005,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 7270",
-    "year": 2005,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry 8700f",
     "year": 2005,
     "image": null
@@ -722,12 +590,6 @@
   {
     "brand": "BlackBerry",
     "name": "BlackBerry 8700r",
-    "year": 2005,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry [6]",
     "year": 2005,
     "image": null
   },
@@ -805,62 +667,8 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry 8130",
-    "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8310",
-    "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8320",
-    "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8820",
-    "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8830",
-    "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry Curve",
     "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8110",
-    "year": 2008,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8120",
-    "year": 2008,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 8330",
-    "year": 2008,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9530",
-    "year": 2008,
     "image": null
   },
   {
@@ -883,12 +691,6 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry 8230",
-    "year": 2009,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry 8520 (Gemini)",
     "year": 2009,
     "image": null
@@ -902,18 +704,6 @@
   {
     "brand": "BlackBerry",
     "name": "BlackBerry 8900/8910(Javelin) 8980 (Atlas)",
-    "year": 2009,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9550",
-    "year": 2009,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9700",
     "year": 2009,
     "image": null
   },
@@ -949,25 +739,7 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry 9100",
-    "year": 2010,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry 9300/9330",
-    "year": 2010,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9650",
-    "year": 2010,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9780",
     "year": 2010,
     "image": null
   },
@@ -975,36 +747,6 @@
     "brand": "BlackBerry",
     "name": "BlackBerry Torch",
     "year": 2010,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9810",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9850",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9860",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9900",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
-    "name": "BlackBerry 9930",
-    "year": 2011,
     "image": null
   },
   {
@@ -3013,12 +2755,6 @@
   },
   {
     "brand": "Huawei",
-    "name": "Huawei [35]",
-    "year": 2023,
-    "image": null
-  },
-  {
-    "brand": "Huawei",
     "name": "Huawei MateBook 14 2023",
     "year": 2023,
     "image": null
@@ -3081,12 +2817,6 @@
     "brand": "Huawei",
     "name": "Huawei Nova Y71",
     "year": 2023,
-    "image": null
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei [34]",
-    "year": 2024,
     "image": null
   },
   {
@@ -3241,18 +2971,6 @@
   },
   {
     "brand": "Motorola",
-    "name": "Motorola 250",
-    "year": 2001,
-    "image": null
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola 280",
-    "year": 2001,
-    "image": null
-  },
-  {
-    "brand": "Motorola",
     "name": "Motorola A008",
     "year": 2001,
     "image": null
@@ -3291,12 +3009,6 @@
     "brand": "Motorola",
     "name": "Motorola i90c",
     "year": 2001,
-    "image": null
-  },
-  {
-    "brand": "Motorola",
-    "name": "Motorola 260",
-    "year": 2002,
     "image": null
   },
   {
@@ -8767,20 +8479,8 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2011",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy S II",
     "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2012",
-    "year": 2012,
     "image": null
   },
   {
@@ -8793,12 +8493,6 @@
     "brand": "Samsung",
     "name": "Samsung Galaxy S III",
     "year": 2012,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2013",
-    "year": 2013,
     "image": null
   },
   {
@@ -8845,12 +8539,6 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2015",
-    "year": 2015,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy Ace",
     "year": 2015,
     "image": null
@@ -8877,24 +8565,6 @@
     "brand": "Samsung",
     "name": "Samsung Galaxy Y",
     "year": 2015,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2016",
-    "year": 2016,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung April",
-    "year": 2016,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung December",
-    "year": 2016,
     "image": null
   },
   {
@@ -8929,12 +8599,6 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2017",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy Gear",
     "year": 2017,
     "image": null
@@ -8959,18 +8623,6 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2018",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung August",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy S Active",
     "year": 2018,
     "image": null
@@ -8979,60 +8631,6 @@
     "brand": "Samsung",
     "name": "Samsung Galaxy S9",
     "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung January",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung July",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung June",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung March",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung May",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung October",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung September",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2019",
-    "year": 2019,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung February",
-    "year": 2019,
     "image": null
   },
   {
@@ -9067,12 +8665,6 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2020",
-    "year": 2020,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy Note 20",
     "year": 2020,
     "image": null
@@ -9081,12 +8673,6 @@
     "brand": "Samsung",
     "name": "Samsung Galaxy S20",
     "year": 2020,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2021",
-    "year": 2021,
     "image": null
   },
   {
@@ -9109,26 +8695,8 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2022",
-    "year": 2022,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy S22",
     "year": 2022,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung November",
-    "year": 2022,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2023",
-    "year": 2023,
     "image": null
   },
   {
@@ -9145,12 +8713,6 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung 2024",
-    "year": 2024,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy Ring",
     "year": 2024,
     "image": null
@@ -9159,18 +8721,6 @@
     "brand": "Samsung",
     "name": "Samsung Galaxy S24",
     "year": 2024,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2025",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
-    "name": "Samsung 2026",
-    "year": 2026,
     "image": null
   },
   {
@@ -9193,12 +8743,6 @@
   },
   {
     "brand": "Xiaomi",
-    "name": "Xiaomi [15]",
-    "year": 2012,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
     "name": "Xiaomi Mi 1S",
     "year": 2012,
     "image": null
@@ -9213,12 +8757,6 @@
     "brand": "Xiaomi",
     "name": "Xiaomi Mi 2",
     "year": 2012,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [21]",
-    "year": 2013,
     "image": null
   },
   {
@@ -9247,12 +8785,6 @@
   },
   {
     "brand": "Xiaomi",
-    "name": "Xiaomi [77]",
-    "year": 2015,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
     "name": "Xiaomi Mi 4c",
     "year": 2015,
     "image": null
@@ -9273,24 +8805,6 @@
     "brand": "Xiaomi",
     "name": "Xiaomi Mi Note Pro",
     "year": 2015,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [25]",
-    "year": 2016,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [27]",
-    "year": 2016,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [69]",
-    "year": 2016,
     "image": null
   },
   {
@@ -9319,36 +8833,6 @@
   },
   {
     "brand": "Xiaomi",
-    "name": "Xiaomi [30]",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [34]",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [68]",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [70]",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [78]",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
     "name": "Xiaomi Mi 5c",
     "year": 2017,
     "image": null
@@ -9357,18 +8841,6 @@
     "brand": "Xiaomi",
     "name": "Xiaomi Mi MIX 2",
     "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [71]",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [80]",
-    "year": 2018,
     "image": null
   },
   {
@@ -9417,12 +8889,6 @@
     "brand": "Xiaomi",
     "name": "Xiaomi Mi Play",
     "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [41]",
-    "year": 2019,
     "image": null
   },
   {
@@ -9649,12 +9115,6 @@
   },
   {
     "brand": "Xiaomi",
-    "name": "Xiaomi [47]",
-    "year": 2023,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
     "name": "Xiaomi Civi 3",
     "year": 2023,
     "image": null
@@ -9734,36 +9194,6 @@
   {
     "brand": "Xiaomi",
     "name": "Xiaomi 17 Ultra/Leica Edition",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [51]",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [81]",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [82]",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [83]",
-    "year": 2025,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi [84]",
     "year": 2025,
     "image": null
   },

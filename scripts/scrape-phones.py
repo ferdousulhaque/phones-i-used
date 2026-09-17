@@ -226,6 +226,11 @@ def scrape_brand_phones(brand, page_path):
             if not raw_name or len(raw_name) < 2:
                 continue
 
+            if re.search(r'\b(January|February|March|April|May|June|July|August|September|October|November|December)\b', raw_name):
+                continue
+            if re.search(r'^\[?\d+\]?$', raw_name.strip()):
+                continue
+
             row_text = row.get_text(" ", strip=True)
             year = extract_year(row_text)
 
@@ -236,9 +241,9 @@ def scrape_brand_phones(brand, page_path):
             if not name.lower().startswith(brand.lower()):
                 name = f"{brand} {name}"
 
-            if name in seen_names:
+            if name.lower() in seen_names:
                 continue
-            seen_names.add(name)
+            seen_names.add(name.lower())
 
             article_path = None
             if link and link.get("href", "").startswith("/wiki/"):
@@ -266,6 +271,11 @@ def scrape_brand_phones(brand, page_path):
                 if not raw_name or len(raw_name) < 3:
                     continue
 
+                if re.search(r'\b(January|February|March|April|May|June|July|August|September|October|November|December)\b', raw_name):
+                    continue
+                if re.search(r'^\[?\d+\]?$', raw_name.strip()):
+                    continue
+
                 li_text = li.get_text(" ", strip=True)
                 year = extract_year(li_text)
                 if not year:
@@ -275,9 +285,9 @@ def scrape_brand_phones(brand, page_path):
                 if not name.lower().startswith(brand.lower()):
                     name = f"{brand} {name}"
 
-                if name in seen_names:
+                if name.lower() in seen_names:
                     continue
-                seen_names.add(name)
+                seen_names.add(name.lower())
 
                 image = get_thumbnail_from_article(link["href"])
 
