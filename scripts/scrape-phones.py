@@ -13,7 +13,6 @@ import re
 import time
 import os
 import sys
-from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -308,7 +307,14 @@ def scrape_brand_phones(brand, page_path):
 
 def merge_fallbacks(scraped):
     """Merge fallback phones into scraped data. Scraped data wins on duplicates."""
-    scraped_names = {p["name"].lower() for p in scraped}
+    scraped_names = set()
+    for p in scraped:
+        scraped_names.add(p["name"].lower())
+        # Also add without brand prefix for matching against fallback list
+        name_lower = p["name"].lower()
+        brand_lower = p["brand"].lower()
+        if name_lower.startswith(brand_lower + " "):
+            scraped_names.add(name_lower[len(brand_lower) + 1:])
     merged = list(scraped)
     added = 0
     for fb in FALLBACK_PHONES:

@@ -7,19 +7,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone",
-    "year": 2007,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "Apple iPhone 3G",
-    "year": 2008,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 3G",
     "year": 2008,
     "image": null
   },
@@ -31,19 +19,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 3GS",
-    "year": 2009,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "Apple iPhone 4",
-    "year": 2010,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 4",
     "year": 2010,
     "image": null
   },
@@ -55,19 +31,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 4S",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "Apple iPhone 5",
-    "year": 2012,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 5",
     "year": 2012,
     "image": null
   },
@@ -85,25 +49,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 5C",
-    "year": 2013,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 5S",
-    "year": 2013,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "Apple iPhone 6",
-    "year": 2014,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 6",
     "year": 2014,
     "image": null
   },
@@ -116,12 +62,6 @@
   {
     "brand": "Apple",
     "name": "Apple iPhone 6s",
-    "year": 2015,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 6S",
     "year": 2015,
     "image": null
   },
@@ -140,12 +80,6 @@
   {
     "brand": "Apple",
     "name": "Apple iPhone SE (1st)",
-    "year": 2016,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 7",
     "year": 2016,
     "image": null
   },
@@ -175,19 +109,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 8",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 8 Plus",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone X",
     "year": 2017,
     "image": null
   },
@@ -200,18 +122,6 @@
   {
     "brand": "Apple",
     "name": "Apple iPhone XS",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone XR",
-    "year": 2018,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone XS",
     "year": 2018,
     "image": null
   },
@@ -230,18 +140,6 @@
   {
     "brand": "Apple",
     "name": "Apple iPhone 11 Pro",
-    "year": 2019,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 11",
-    "year": 2019,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 11 Pro",
     "year": 2019,
     "image": null
   },
@@ -271,19 +169,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 12",
-    "year": 2020,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 12 Mini",
-    "year": 2020,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 12 Pro",
     "year": 2020,
     "image": null
   },
@@ -313,19 +199,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 13",
-    "year": 2021,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 13 Mini",
-    "year": 2021,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 13 Pro",
     "year": 2021,
     "image": null
   },
@@ -355,19 +229,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 14",
-    "year": 2022,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 14 Plus",
-    "year": 2022,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 14 Pro",
     "year": 2022,
     "image": null
   },
@@ -397,19 +259,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 15",
-    "year": 2023,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 15 Plus",
-    "year": 2023,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 15 Pro",
     "year": 2023,
     "image": null
   },
@@ -433,19 +283,7 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 16",
-    "year": 2024,
-    "image": null
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 16 Plus",
-    "year": 2024,
-    "image": null
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 16 Pro",
     "year": 2024,
     "image": null
   },
