@@ -230,6 +230,8 @@ def scrape_brand_phones(brand, page_path):
                 continue
             if re.search(r'^\[?\d+\]?$', raw_name.strip()):
                 continue
+            if re.search(r'\b(Release|Series|series|Tab |Tablet|Discontinued|Overview|Features|Specifications)\b', raw_name, re.IGNORECASE):
+                continue
 
             row_text = row.get_text(" ", strip=True)
             year = extract_year(row_text)
@@ -274,6 +276,8 @@ def scrape_brand_phones(brand, page_path):
                 if re.search(r'\b(January|February|March|April|May|June|July|August|September|October|November|December)\b', raw_name):
                     continue
                 if re.search(r'^\[?\d+\]?$', raw_name.strip()):
+                    continue
+                if re.search(r'\b(Release|Series|series|Tab |Tablet|Discontinued|Overview|Features|Specifications)\b', raw_name, re.IGNORECASE):
                     continue
 
                 li_text = li.get_text(" ", strip=True)

@@ -757,12 +757,6 @@
   },
   {
     "brand": "BlackBerry",
-    "name": "BlackBerry Tablet OS",
-    "year": 2011,
-    "image": null
-  },
-  {
-    "brand": "BlackBerry",
     "name": "BlackBerry \"BlackBerry Porsche Design\"",
     "year": 2012,
     "image": null
@@ -8617,12 +8611,6 @@
   },
   {
     "brand": "Samsung",
-    "name": "Samsung Galaxy Tab series",
-    "year": 2017,
-    "image": null
-  },
-  {
-    "brand": "Samsung",
     "name": "Samsung Galaxy S Active",
     "year": 2018,
     "image": null
@@ -8822,12 +8810,6 @@
   {
     "brand": "Xiaomi",
     "name": "Xiaomi Mi Note 2",
-    "year": 2016,
-    "image": null
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Release date",
     "year": 2016,
     "image": null
   },
