@@ -44,6 +44,7 @@ BRAND_PAGES = {
     "Oppo": "/wiki/List_of_Oppo_smartphones",
     "Vivo": "/wiki/List_of_Vivo_smartphones",
     "Realme": "/wiki/Realme",
+    "Siemens": "/wiki/Siemens"
 }
 
 FALLBACK_PHONES = [
