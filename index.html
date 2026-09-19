@@ -238,6 +238,10 @@
       }
     }
 
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
     /* Autocomplete dropdown */
     .autocomplete-dropdown {
       position: absolute;
@@ -607,13 +611,9 @@
             <!-- Card -->
             <div class="h-card ${side}">
               <div class="glass-card rounded-xl p-4 hover:bg-white/[0.08] transition-all duration-300 hover:scale-105 group text-center">
-                <div class="flex justify-center" style="height:100px;">${(function() {
-                    var imgUrl = findPhoneImage(phone.name);
-                    if (imgUrl) {
-                      return '<img src="' + escapeHtml(imgUrl) + '" alt="' + escapeHtml(phone.name) + '" loading="lazy" style="width:80px;height:100px;object-fit:contain;" onerror="this.outerHTML=PHONE_FALLBACK_SVG">';
-                    }
-                    return PHONE_FALLBACK_SVG;
-                  })()}</div>
+                <div class="phone-img-container flex justify-center items-center" style="height:100px;" data-phone="${escapeHtml(phone.name)}">
+                  <div class="img-spinner" style="width:24px;height:24px;border:2px solid rgba(99,102,241,0.4);border-top-color:#6366f1;border-radius:50%;animation:spin 0.8s linear infinite;"></div>
+                </div>
                 <h3 class="text-sm font-bold text-white/90 mt-1.5 leading-snug">${escapeHtml(phone.name)}</h3>
               </div>
             </div>
@@ -645,6 +645,9 @@
       const icon = document.getElementById('toggle-icon');
       if (label) label.textContent = 'Scrollable View';
       if (icon) icon.innerHTML = '<path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01"/>';
+
+      // Fetch all phone images from Wikipedia
+      loadTimelineImages();
     }
 
     // ─── Toggle between fit-to-screen and scrollable view ──────────────
@@ -831,28 +834,107 @@
       }
     }
 
-    function findPhoneImage(phoneName) {
-      if (!phoneData || phoneData.length === 0) return null;
-
-      var lowerName = phoneName.toLowerCase();
-      var exact = phoneData.find(function(p) { return p.name.toLowerCase() === lowerName; });
-      if (exact && exact.image) return exact.image;
-
-      if (fuse) {
-        var results = fuse.search(phoneName);
-        if (results.length > 0 && results[0].score <= 0.3 && results[0].item.image) {
-          return results[0].item.image;
-        }
-      }
-
-      return null;
-    }
-
     var PHONE_FALLBACK_SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 100" width="80" height="100" fill="none">'
       + '<rect x="10" y="2" width="60" height="96" rx="10" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>'
       + '<rect x="16" y="12" width="48" height="64" rx="4" fill="rgba(255,255,255,0.05)"/>'
       + '<circle cx="40" cy="88" r="5" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>'
       + '</svg>';
+
+    // ─── Live image fetch from Wikipedia on hover ────────────────────────
+    var wikiImageCache = {};
+    var WIKI_API_URL = 'https://en.wikipedia.org/w/api.php';
+
+    async function fetchPhoneImageLive(phoneName) {
+      if (wikiImageCache.hasOwnProperty(phoneName)) return wikiImageCache[phoneName];
+
+      // Try direct title match, then with "phone" suffix
+      var queries = [phoneName, phoneName + ' (phone)', phoneName + ' phone'];
+      for (var q of queries) {
+        try {
+          var params = new URLSearchParams({
+            action: 'query', titles: q.replace(/ /g, '_'),
+            prop: 'pageimages', pithumbsize: '300',
+            format: 'json', origin: '*', redirects: '1'
+          });
+          var resp = await fetch(WIKI_API_URL + '?' + params);
+          var data = await resp.json();
+          var pages = Object.values(data.query.pages);
+          for (var page of pages) {
+            if (page.thumbnail && page.thumbnail.source) {
+              wikiImageCache[phoneName] = page.thumbnail.source;
+              return page.thumbnail.source;
+            }
+          }
+        } catch (e) {}
+      }
+
+      // Fallback: Wikipedia search API
+      try {
+        var params = new URLSearchParams({
+          action: 'query', list: 'search',
+          srsearch: phoneName, srlimit: '3',
+          format: 'json', origin: '*'
+        });
+        var resp = await fetch(WIKI_API_URL + '?' + params);
+        var results = (await resp.json()).query.search || [];
+        for (var r of results) {
+          var imgParams = new URLSearchParams({
+            action: 'query', titles: r.title,
+            prop: 'pageimages', pithumbsize: '300',
+            format: 'json', origin: '*'
+          });
+          var imgResp = await fetch(WIKI_API_URL + '?' + imgParams);
+          var imgData = await imgResp.json();
+          for (var p of Object.values(imgData.query.pages)) {
+            if (p.thumbnail && p.thumbnail.source) {
+              wikiImageCache[phoneName] = p.thumbnail.source;
+              return p.thumbnail.source;
+            }
+          }
+        }
+      } catch (e) {}
+
+      wikiImageCache[phoneName] = null;
+      return null;
+    }
+
+    function checkImageDimensions(url) {
+      return new Promise(function(resolve) {
+        var img = new Image();
+        img.onload = function() {
+          resolve(img.naturalHeight >= img.naturalWidth);
+        };
+        img.onerror = function() { resolve(false); };
+        img.src = url;
+      });
+    }
+
+    function loadTimelineImages() {
+      var containers = document.querySelectorAll('.phone-img-container');
+      containers.forEach(function(container) {
+        var phoneName = container.dataset.phone;
+        if (!phoneName) return;
+
+        fetchPhoneImageLive(phoneName).then(function(url) {
+          if (!url) {
+            container.innerHTML = PHONE_FALLBACK_SVG;
+            return;
+          }
+          checkImageDimensions(url).then(function(isPortrait) {
+            if (isPortrait) {
+              container.innerHTML = '<img src="' + escapeHtml(url) + '" alt="' + escapeHtml(phoneName)
+                + '" style="width:80px;height:100px;object-fit:contain;opacity:0;transition:opacity 0.3s;">';
+              var img = container.querySelector('img');
+              if (img.complete) { img.style.opacity = '1'; }
+              else { img.onload = function() { img.style.opacity = '1'; }; }
+              img.onerror = function() { container.innerHTML = PHONE_FALLBACK_SVG; };
+            } else {
+              container.innerHTML = PHONE_FALLBACK_SVG;
+            }
+          });
+        });
+      });
+    }
 
     async function init() {
       await loadPhoneData();
