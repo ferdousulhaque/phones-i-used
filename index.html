@@ -31,6 +31,7 @@
 
   <!-- TailwindCSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -139,7 +140,7 @@
       display: flex;
       align-items: center;
       position: relative;
-      min-height: 340px;
+      min-height: 440px;
       padding: 10px 0;
     }
 
@@ -178,11 +179,11 @@
     }
 
     .h-entry .h-card.above {
-      bottom: calc(50% + 28px);
+      bottom: calc(50% + 32px);
     }
 
     .h-entry .h-card.below {
-      top: calc(50% + 28px);
+      top: calc(50% + 32px);
     }
 
     /* Connector stick from dot to card */
@@ -222,6 +223,54 @@
         opacity: 1;
         transform: translateX(0);
       }
+    }
+
+    /* Autocomplete dropdown */
+    .autocomplete-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      max-height: 240px;
+      overflow-y: auto;
+      background: rgba(30, 27, 75, 0.95);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      margin-top: 4px;
+      display: none;
+    }
+
+    .autocomplete-dropdown.open {
+      display: block;
+    }
+
+    .autocomplete-item {
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.8);
+      transition: background 0.15s;
+    }
+
+    .autocomplete-item:first-child {
+      border-radius: 12px 12px 0 0;
+    }
+
+    .autocomplete-item:last-child {
+      border-radius: 0 0 12px 12px;
+    }
+
+    .autocomplete-item.focused,
+    .autocomplete-item:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .autocomplete-brand {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 0.75rem;
     }
   </style>
 </head>
@@ -332,9 +381,8 @@
   <script>
     // ─── State ───────────────────────────────────────────────────────────
     let entries = [];
-
-    // ─── Phone emoji bank for variety ────────────────────────────────────
-    const phoneEmojis = ['📱', '📲', '☎️', '📞', '🤳'];
+    let phoneData = [];
+    let fuse = null;
 
     // ─── DOM references ──────────────────────────────────────────────────
     const entriesContainer = document.getElementById('entries-container');
@@ -360,27 +408,36 @@
 
     function renderEntries() {
       entriesContainer.innerHTML = entries.map((entry, i) => `
-        <div class="flex items-center gap-3 animate-fade-in" data-id="${entry.id}">
-          <div class="flex items-center gap-1 text-gray-500 text-sm font-mono w-6 justify-end">${i + 1}.</div>
-          <input
-            type="number"
-            min="1980"
-            max="${new Date().getFullYear()}"
-            placeholder="Year"
-            value="${entry.year}"
-            oninput="updateEntry(${entry.id}, 'year', this.value)"
-            class="w-24 bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
-          />
-          <input
-            type="text"
-            placeholder="Phone name (e.g. Nokia 3310)"
-            value="${entry.name}"
-            oninput="updateEntry(${entry.id}, 'name', this.value)"
-            class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
-          />
-          <button onclick="removeEntry(${entry.id})" class="text-gray-600 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
-          </button>
+        <div class="animate-fade-in" data-id="${entry.id}">
+          <div class="flex items-center gap-3">
+            <div class="flex items-center gap-1 text-gray-500 text-sm font-mono w-6 justify-end">${i + 1}.</div>
+            <input
+              id="year-${entry.id}"
+              type="number"
+              min="1990"
+              max="2026"
+              placeholder="Year"
+              value="${entry.year}"
+              oninput="updateEntry(${entry.id}, 'year', this.value); clearError(${entry.id});"
+              onblur="(function(id, val){ var r=validateYear(val); if(!r.valid) showError(id,r.message); })(${entry.id}, this.value)"
+              class="w-24 bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+            />
+            <div class="flex-1 relative">
+              <input
+                type="text"
+                placeholder="Phone name (e.g. Nokia 3310)"
+                value="${escapeHtml(entry.name)}"
+                oninput="updateEntry(${entry.id}, 'name', this.value); showAutocomplete(this, ${entry.id}, this.value)"
+                onkeydown="handleAutocompleteKeydown(event, ${entry.id})"
+                onblur="setTimeout(hideAutocomplete, 150)"
+                class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+              />
+            </div>
+            <button onclick="removeEntry(${entry.id})" class="text-gray-600 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <div id="error-${entry.id}" class="hidden text-red-400 text-xs ml-9 mt-1"></div>
         </div>
       `).join('');
     }
@@ -388,6 +445,61 @@
     function updateEntry(id, field, value) {
       const entry = entries.find(e => e.id === id);
       if (entry) entry[field] = value;
+    }
+
+    function validateYear(value) {
+      if (!value || value.toString().trim() === '') {
+        return { valid: false, message: 'Year required' };
+      }
+      const year = Number(value);
+      if (isNaN(year) || year < 1990 || year > 2026) {
+        return { valid: false, message: 'Enter year between 1990-2026' };
+      }
+      return { valid: true, message: '' };
+    }
+
+    function showError(entryId, message) {
+      const errorEl = document.getElementById('error-' + entryId);
+      const inputEl = document.getElementById('year-' + entryId);
+      if (errorEl) {
+        errorEl.textContent = message;
+        errorEl.classList.remove('hidden');
+      }
+      if (inputEl) {
+        inputEl.classList.add('border-red-400');
+      }
+    }
+
+    function clearError(entryId) {
+      const errorEl = document.getElementById('error-' + entryId);
+      const inputEl = document.getElementById('year-' + entryId);
+      if (errorEl) {
+        errorEl.textContent = '';
+        errorEl.classList.add('hidden');
+      }
+      if (inputEl) {
+        inputEl.classList.remove('border-red-400');
+      }
+    }
+
+    function validateAllEntries() {
+      let allValid = true;
+      let firstInvalidId = null;
+      for (const entry of entries) {
+        const result = validateYear(entry.year);
+        if (!result.valid) {
+          showError(entry.id, result.message);
+          if (!firstInvalidId) firstInvalidId = entry.id;
+          allValid = false;
+        } else {
+          clearError(entry.id);
+        }
+      }
+      if (firstInvalidId) {
+        const el = document.getElementById('year-' + firstInvalidId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      return allValid;
     }
 
     // ─── URL encoding / decoding ─────────────────────────────────────────
@@ -417,11 +529,9 @@
 
     // ─── Timeline generation ─────────────────────────────────────────────
     function generateTimeline() {
+      if (!validateAllEntries()) return;
       const valid = entries.filter(e => e.year && e.name.trim());
-      if (valid.length === 0) {
-        alert('Add at least one phone with a year and name!');
-        return;
-      }
+      if (valid.length === 0) return;
 
       // Sort chronologically
       valid.sort((a, b) => Number(a.year) - Number(b.year));
@@ -463,7 +573,6 @@
 
       timelineEntries.innerHTML = phones.map((phone, i) => {
         const isAbove = i % 2 === 0;
-        const emoji = phoneEmojis[i % phoneEmojis.length];
         const color = colors[i % colors.length];
         const side = isAbove ? 'above' : 'below';
 
@@ -475,7 +584,13 @@
             <!-- Card -->
             <div class="h-card ${side}">
               <div class="glass-card rounded-xl p-4 hover:bg-white/[0.08] transition-all duration-300 hover:scale-105 group text-center">
-                <span class="text-2xl group-hover:scale-110 inline-block transition-transform duration-300">${emoji}</span>
+                <div class="flex justify-center" style="height:100px;">${(function() {
+                    var imgUrl = findPhoneImage(phone.name);
+                    if (imgUrl) {
+                      return '<img src="' + escapeHtml(imgUrl) + '" alt="' + escapeHtml(phone.name) + '" loading="lazy" style="width:80px;height:100px;object-fit:contain;" onerror="this.outerHTML=PHONE_FALLBACK_SVG">';
+                    }
+                    return PHONE_FALLBACK_SVG;
+                  })()}</div>
                 <h3 class="text-sm font-bold text-white/90 mt-1.5 leading-snug">${escapeHtml(phone.name)}</h3>
               </div>
             </div>
@@ -551,11 +666,132 @@
     function escapeHtml(text) {
       const div = document.createElement('div');
       div.textContent = text;
-      return div.innerHTML;
+      return div.innerHTML.replace(/"/g, '&quot;');
     }
 
     // ─── Init ────────────────────────────────────────────────────────────
-    function init() {
+    async function loadPhoneData() {
+      try {
+        const resp = await fetch('phones.json');
+        if (!resp.ok) return;
+        phoneData = await resp.json();
+        fuse = new Fuse(phoneData, {
+          keys: ['name', 'brand'],
+          threshold: 0.3,
+          limit: 8,
+        });
+      } catch (e) {
+        // Autocomplete silently disabled if phones.json unavailable
+      }
+    }
+
+    let activeDropdown = null;
+    let focusedIndex = -1;
+
+    function showAutocomplete(inputEl, entryId, query) {
+      if (!fuse || query.length < 2) {
+        hideAutocomplete();
+        return;
+      }
+
+      const results = fuse.search(query).slice(0, 8);
+      if (results.length === 0) {
+        hideAutocomplete();
+        return;
+      }
+
+      let dropdown = document.getElementById('autocomplete-' + entryId);
+      if (!dropdown) {
+        dropdown = document.createElement('div');
+        dropdown.id = 'autocomplete-' + entryId;
+        dropdown.className = 'autocomplete-dropdown';
+        inputEl.parentElement.appendChild(dropdown);
+      }
+
+      focusedIndex = -1;
+      dropdown.innerHTML = results.map(function(r, i) {
+        return '<div class="autocomplete-item" data-index="' + i + '" data-name="' + escapeHtml(r.item.name) + '" data-year="' + r.item.year + '">'
+          + '<span class="autocomplete-brand">' + escapeHtml(r.item.brand) + '</span> · '
+          + escapeHtml(r.item.name) + ' · '
+          + '<span class="autocomplete-brand">' + r.item.year + '</span>'
+          + '</div>';
+      }).join('');
+
+      dropdown.querySelectorAll('.autocomplete-item').forEach(function(item) {
+        item.addEventListener('mousedown', function(e) {
+          e.preventDefault();
+          selectAutocompleteItem(entryId, item.dataset.name, item.dataset.year);
+        });
+      });
+
+      dropdown.classList.add('open');
+      activeDropdown = dropdown;
+    }
+
+    function hideAutocomplete() {
+      if (activeDropdown) {
+        activeDropdown.classList.remove('open');
+        activeDropdown = null;
+        focusedIndex = -1;
+      }
+    }
+
+    function selectAutocompleteItem(entryId, name, year) {
+      updateEntry(entryId, 'name', name);
+      updateEntry(entryId, 'year', year);
+      clearError(entryId);
+      hideAutocomplete();
+      renderEntries();
+    }
+
+    function handleAutocompleteKeydown(e, entryId) {
+      if (!activeDropdown || !activeDropdown.classList.contains('open')) return;
+
+      var items = activeDropdown.querySelectorAll('.autocomplete-item');
+      if (items.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        focusedIndex = Math.min(focusedIndex + 1, items.length - 1);
+        items.forEach(function(el, i) { el.classList.toggle('focused', i === focusedIndex); });
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        focusedIndex = Math.max(focusedIndex - 1, 0);
+        items.forEach(function(el, i) { el.classList.toggle('focused', i === focusedIndex); });
+      } else if (e.key === 'Enter' && focusedIndex >= 0) {
+        e.preventDefault();
+        var item = items[focusedIndex];
+        selectAutocompleteItem(entryId, item.dataset.name, item.dataset.year);
+      } else if (e.key === 'Escape') {
+        hideAutocomplete();
+      }
+    }
+
+    function findPhoneImage(phoneName) {
+      if (!phoneData || phoneData.length === 0) return null;
+
+      var lowerName = phoneName.toLowerCase();
+      var exact = phoneData.find(function(p) { return p.name.toLowerCase() === lowerName; });
+      if (exact && exact.image) return exact.image;
+
+      if (fuse) {
+        var results = fuse.search(phoneName);
+        if (results.length > 0 && results[0].score <= 0.3 && results[0].item.image) {
+          return results[0].item.image;
+        }
+      }
+
+      return null;
+    }
+
+    var PHONE_FALLBACK_SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 100" width="80" height="100" fill="none">'
+      + '<rect x="10" y="2" width="60" height="96" rx="10" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>'
+      + '<rect x="16" y="12" width="48" height="64" rx="4" fill="rgba(255,255,255,0.05)"/>'
+      + '<circle cx="40" cy="88" r="5" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>'
+      + '</svg>';
+
+    async function init() {
+      await loadPhoneData();
       const fromHash = decodeFromHash();
       if (fromHash.length > 0) {
         entries = fromHash;
@@ -569,6 +805,12 @@
     }
 
     init();
+
+    document.addEventListener('click', function(e) {
+      if (activeDropdown && !e.target.closest('.relative')) {
+        hideAutocomplete();
+      }
+    });
   </script>
 </body>
 

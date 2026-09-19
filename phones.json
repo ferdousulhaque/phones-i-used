@@ -1,0 +1,9032 @@
+[
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 3G",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 3GS",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 4",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 4s",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 5",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 5c",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 5s",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 6",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 6 Plus",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 6s",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 6S Plus",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 7",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone SE (1st)",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 7 Plus",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone SE",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 8",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone X",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 8 Plus",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone XR",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone XS",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone XS Max",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 11",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 11 Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 11 Pro Max",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 12",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 12 Pro",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone SE (2nd)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 12 Mini",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 12 Pro Max",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone SE 2nd generation",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 13",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 13 Pro",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 13 Mini",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 13 Pro Max",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 14",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 14 Pro",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone SE (3rd)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 14 Plus",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 14 Pro Max",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone SE 3rd generation",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 15",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 15 Pro",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 15 Plus",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 15 Pro Max",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 16",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 16 Pro",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 16 Plus",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 16 Pro Max",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 16e",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 17",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 17 Pro",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone Air",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 17e",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone 18 Pro",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "Apple",
+    "name": "Apple iPhone Duo",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 65XX",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 67XX",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Early Java-based",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 72XX",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 77XX",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Quark",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7100r",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7100v",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 75XX",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Charm",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Specialty",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7100i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7100x",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7105t",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8700f",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8700r",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Electron",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7130c",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7130g",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 7130v",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8700g",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8700v",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8703e",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8707g",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8707h",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8707v",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Pearl",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry \"88XX\"",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Curve",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Bold",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Pearl Flip",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Storm",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8520 (Gemini)",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8530 (Aries)",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 8900/8910(Javelin) 8980 (Atlas)",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Bold 9700",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Curve 8520",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Storm2",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Tour",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry \"Style\"",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 9300/9330",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Torch",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Bold Touch",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry \"BlackBerry Porsche Design\"",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry \"BlackBerry 9720\"",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry 10",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "BlackBerry Android",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel / XL",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 2",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 2 / XL",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 3",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 3 / XL",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 3a / XL",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 4",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 4 / XL",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 4a",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 4a (5G)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 5",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 5a",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 6",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 6 / Pro",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 6a",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 7",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 7 / Pro",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 7a",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 8",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 8 / Pro",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel Fold",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 8a",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 9",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 9 / Pro / Pro XL",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 9 Pro Fold",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 10",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 10 Pro Fold",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 9a",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 10a",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "Google",
+    "name": "Google Pixel 11",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Canary",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Kiwi",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Rosella",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Wallaby",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Dextrous",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Falcon",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Great Wall",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Tanager",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Amadeus",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Bali",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Blue Angel",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Feeler",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Harrier",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Himalaya",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Magician",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Roadster",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Sonata",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Typhoon",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Voyager",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Apache",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Beetles",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Douton",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Faraday",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Galaxy",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Gemini",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Hurricane",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Tornado",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Universal",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Wizard",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Artemis",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Breeze",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Charmer",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Cheetah",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Eden",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Excalibur",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Herald",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Hermes",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Monet",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Oxygen",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Prophet",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Sable",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Startrek",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Trinity",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Athena",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Atlas",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Cavalier",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Census",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Clio",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Elf",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Elfin",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Gene",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Iris",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Kaiser",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Libra",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Love",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Nike",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Panda",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Phoebus",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Sedna",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Titan",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Vogue",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Vox",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Wave",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Wings",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Blackstone",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Converse",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Diamond",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Dream",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Fuwa",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Herman",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Jade",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Kovsky",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Neon",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Opal",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Panther",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Pharos",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Polaris",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Quartz",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Raphael",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Rose",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Victor",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Barium",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Cedar",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Citrine",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC DesireC",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Hero",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Imagio",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Iolite",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Leo",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Maple",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Mega",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Qilin",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Rhodium",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Sapphire",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Tachi",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Tattoo",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Topaz",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Tungsten",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Whitestone",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Willow",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Ace",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Bravo",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Buzz",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Espresso",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Glacier",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Gold",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Gratia",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Incredible",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Legend",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Liberty",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Mondrian",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Mozart",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Passion",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Photon",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Rome",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Schubert",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Spark",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Stallion",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Supersonic",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Vision",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Bliss",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Doubleshot",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Eternity",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Flyer",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Freestyle",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Holiday",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Icon",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Kingdom",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Lexikon",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Marvel",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Mecha",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Pico",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Pyramid",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Pyramid LE",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Radar",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Rider",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Ruby",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Runnymede",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Saga",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Shooter",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC ShooterU",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Speedy",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Status",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Vigor",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Vivo",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC VivoW",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Accord",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC DLXJ",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Endeavor",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Evita",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Fireball",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Golf",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Jewel",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Primo",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC PrimoDS",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Proto",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Radiant",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Rio",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC ValenteWX",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Ville",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M4",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M7",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Myst",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC One M7",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC T6",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M5",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M8",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC One M8",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Volantis",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "htc_a31ul",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Aero",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M8s",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M9",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC M10",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Marlin",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Sailfish",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Alpine",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC U-1u",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC U11",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC U11+",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC Walleye",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC U12 Life",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC U12+",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "HTC",
+    "name": "HTC 2Q7A100",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Ascend",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y360 (also known as Y3)",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y560",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5c",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 Pro (also known as Enjoy 5 and Honor Play 5X)",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y3 II",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 II (also known as Honor Holly 3 in India and Honor 5A in Malaysia)",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 II Compact (also known as Honor 5A)",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook E",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 2",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 2 Plus",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 2s",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova lite (also known as P8 lite 2017, P9 lite 2017 and Honor 8 Lite)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova lite 2017 (also known as P9 lite mini and Y6 Pro 2017)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova lite+ (also known as Y7)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Smart (also known as Enjoy 6S and Honor 6C)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Youth (also known as P10 lite)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y3 2017",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5 2017",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 2017",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 Pro 2017 (also known as Nova lite 2017 and P9 lite mini)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 Prime (also known as Enjoy 7 Plus in China and Honor Holly 4 Plus in India)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Enjoy 8 (also known as Y7 Prime 2018 and Nova 2 lite)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Enjoy 8 Plus (also known as Y9 2018)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Enjoy 8e Youth Edition (also known as Y5 Prime 2018)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Mate 20 Pro",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X Pro 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 2 lite(also known as Y7 Prime 2018)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 2i (Also known as Mate 10 lite, Maimang 6 & Honor 9i India)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 3",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 3e (Also known as P20 lite)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 3i (also known as P Smart+)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 4",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y Max (also known as Enjoy Max in China)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y3 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5 lite",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5 Prime 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 Prime 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 Prime 2018 (also known as Enjoy 8 in China and Nova 2 lite)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 Pro 2018",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y9 2018 (also known as Enjoy 8 Plus in China)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Enjoy 9 Plus (also known as Y9 2019)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Enjoy 9S (also known as P Smart+ 2019 in Europe)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 13 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D 14",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D 15",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X Pro 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 4e (also known as P30 lite)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 5",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 5 Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 5i (also known as P20 lite 2019)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 5i Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 5T",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 5z",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 6",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 6 SE",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova lite 3 (also known as P Smart 2019)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei P30 Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 Prime 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6 Pro 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 Prime 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7 Pro 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y9 2019 (also known as Enjoy 9 Plus in China)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y9 Prime 2019",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 13 2020",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X Pro 2020",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 7 SE 5G (also known as P40 lite 5G in Europe)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 7 SE 5G Youth",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 7i",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 8 SE 5G",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova lite 3+ (also known as P Smart 2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y5p (also known as Honor 9S)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y6s (also known as Honor 8A, Honor 8A Pro, Honor 8A Prime and Honor 8A 2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7p (also known as P40 lite E)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y9a (also known as Nova Y9a)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 14 2021",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 14s 2021",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D15 (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X Pro 2021",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateStation X",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 8",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 8 5G",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 8 Pro 4G",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 8 SE 4G",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 8i",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 9",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y60",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Y7a (also known as P Smart 2021 in Europe and Honor 10X Lite)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 14 2022",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 16",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D 16 2022",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook E 2022",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X Pro 2022",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateStation S",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateStation X 2022",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 10",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 10 SE",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 10z",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 9 SE",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y61 (also known as Nova Y62/Y62 Plus in South Africa and Enjoy 50z in China)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y70 (also known as Nova Y70 Plus in South East Asia and South Africa)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y90",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y9a (also known as Y9a)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 14 2023",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 16s (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D 16 2023",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook X Pro 2023",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 10 Youth",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 11",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 11 SE",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 11i",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 12",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y62 (also known as Nova Y61 and Enjoy 50z in China)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y71",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 14 2024",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D 16 2024",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook D14 2024",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 12s (also known as Nova 12 Lite in China)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 13",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova 13i",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Flip",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y72 (also known as Enjoy 70 in China)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei Nova Y72S (also known as Enjoy 70S in China)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook Fold ULTIMATE DESIGN",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook Pro",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook 14 HarmonyOS Edition",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook Fold ULTIMATE DESIGN (2026)",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook Pro (2026)",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "Huawei",
+    "name": "Huawei MateBook Pro S",
+    "year": 2026,
+    "image": null
+  },
+  {
+    "brand": "LG",
+    "name": "LG G2",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "LG",
+    "name": "LG Nexus 5",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "LG",
+    "name": "LG G3",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i2000plus",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i80s",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola International 1000/2000/2200/2700",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola P7389",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola P8767",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V2288",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V8088",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A008",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A009",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A6288",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C201",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i50sx",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i85s",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i90c",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A388",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C200",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C202",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C205",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C250",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C256",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C300",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C331",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i30sx",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i35s",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i55sr",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i58sr",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i60c",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i88s",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i95cl",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i99cl",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T720",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V120c",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V120e",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V120t",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V120x",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V2260",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A388C",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A760",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A830",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A835",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A920",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C332",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C333",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C343",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C353",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E365",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i205",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i215",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i305",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i530",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i730",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i920",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i930",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MPx200",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T190",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T191",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T280i",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T300p",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V300",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V60p",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V60t Color",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V60v",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V65p",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V66",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V66i",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V70",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V80",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A1000",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A630",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A768",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A768i",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A840",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A845",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A925",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C341",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C385",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C975",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C980",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i285",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i315",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i733",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i736",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i740",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i830",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i833",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i835",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i860",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MPx220",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MPx300/MPx",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS100",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS150",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS200",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS280",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS330",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3c",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T721",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T722",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T725",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T731",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V150",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V180",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V188",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V190",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V220",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V260",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V628",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V975",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V980",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A1010",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A1200",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A668",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A780",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A910/A910i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C1100",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C115",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C116",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C117",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C118",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C123",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C131",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C157",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C212",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C260",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C261",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C291",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C343a",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C350g",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C359",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C370",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C380",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C381p",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C390",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C450",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C550",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C650",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C651",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E310",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E378i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E398",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E815/E816",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i265",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i275",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i325",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i325is",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i355",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i415",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i450",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i605",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i615",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i710",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i720",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i836",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i850",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i855",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i857",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i870",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola M1000",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS350",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS400",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS500",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola PEBL U6",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3m",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3r",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3t",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3x",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR E1",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola T730",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V1050",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V170",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V171",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V173",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V195",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V197",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V200",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V235",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V262",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V265",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V266",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V303",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V323",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V325",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V330",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V360",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V360v",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V361",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V400",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V400p",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V500",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V535",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V545",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V547",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V551",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V555",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V557",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V600",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V620",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V635",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V690",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V710",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V740",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V810",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V872",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V878",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C139",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C140",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C155",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C168",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola C290",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E1000",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E1070",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E380",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E550",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E680",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E680i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola E770",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola FONE F3",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i455",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i560",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i580",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i670",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i690",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i760",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i875",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i880",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i885",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ic402",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ic502",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola KRZR K1",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola M800",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola M900",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS250",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS300",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS550",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS600",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS700",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS800",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3a",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR V3xx",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RIZR Z3",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR E2",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR E6",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola SLVR L2",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola SLVR L6",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola SLVR L6i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola SLVR L7",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola SLVR L7e",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V176",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V195s",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V276",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V365",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W208",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W220",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W315",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W370",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W375",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W510",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i290",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i335",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i425",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i570",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i876",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ic602",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ic902",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola KRZR K3",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola KRZR K3m",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola M710",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola M930",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola MS900",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola PEBL U3",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Q9c",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Q9h",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Q9m",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR maxx",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR²",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RIZR Z8",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR U9",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR W5",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR Z6",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola SLVR L9",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W385",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W396",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W490",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A-7F",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A-8B",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A1600",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola AURA",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola HINT (QA30)",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i776",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i877",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola M990",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Q11",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RIZR Z10",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RIZR Z9",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ROKR E8",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V750",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola V950",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W175",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W177",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W230",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W260",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W270",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W376",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W376g",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W755",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W760",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola ZINE ZN5",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A3100",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A455",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A853",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A855",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Cliq",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i465",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i890",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i9",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W233 Renew",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola W388 Renew+",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX160",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX390",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX395",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A953",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola A955",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Backflip",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Bravo",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Charm",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Defy",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid 2",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Pro",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid X",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Flipout",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Flipside",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i1",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i680",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Milestone XT720",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX181",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX290",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX295",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX416",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Atrix 2",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Atrix 4G",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid 3",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Bionic",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Razr",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i475",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i686",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i886",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX306",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX345",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola WX346",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Atrix HD",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid 4",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Razr HD",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Razr M",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola i867",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Photon Q",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Maxx",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Mini",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G (1st generation)",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto X (1st generation)",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Droid Turbo",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E (1st generation)",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G (2nd generation)",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto X (2nd generation)",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E (2nd generation)",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G (3rd generation)",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto X Play",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto X Style",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E3",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G4",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto M",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z Play",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto C",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E4",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G5",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto X4",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z2 Force",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z2 Play",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E5",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G6",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z3",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z3 Play",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola One",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G7",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G8 Plus",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto Z4",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Razr (4G)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Edge",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E (2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E6s (2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E7",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E7 Plus",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G 5G",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G 5G Plus",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Fast",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Power/Stylus",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Pro",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G8",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G8 Power",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G8 Power Lite",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G9 Play",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G9 Plus",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G9 Power",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Razr (5G)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 2020",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Razr 5G",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Defy (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Edge 20",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E6i",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto E7 Power",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Play (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Power (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Stylus (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G Stylus 5G",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G10",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G10 Power",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G100",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G20",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G30",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G40 Fusion",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G50",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G60",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Moto G22",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 2022",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 40",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 40 Ultra",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola Edge 50 fusion",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 2024",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 50 Ultra",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 2025",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 60 Plus",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Motorola",
+    "name": "Motorola RAZR 60 Ultra",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3310",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5165",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5180",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6210",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6250",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7160",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8260",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8890",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9110i Communicator",
+    "year": 2000,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3280",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3320",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3390",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5510",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6310",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6360",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8250",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8290",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8310",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8855",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8877",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8887",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9210 Communicator",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia D211",
+    "year": 2001,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1220",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1260",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3315",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3360",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3395",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3510",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3585",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3610",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5210",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6100",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6310i",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6340i",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6370",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6510",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6590",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6610",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7210",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7650",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8265",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8265i",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8270",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8277",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8280",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8280i",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8390",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8587",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8910",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9210i Communicator",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9290 Communicator",
+    "year": 2002,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1100",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1221",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1261",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2100",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2220",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2260",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2275",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3100",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3200",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3300",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3530",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3560",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3585i",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3620",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5100",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6108",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6200",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6220",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6340",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6560",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6590i",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6650",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6800",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7250",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7600",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 810 (car phone)",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8910i",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia D311",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N-Gage",
+    "year": 2003,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2112",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2600",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2650",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3120",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3125",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3128",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3129",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3205",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3220",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3520",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5140",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6010",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6101",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6170",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6175i",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6225",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6255",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6610i",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6630",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6651",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6810",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7200",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7260",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7610",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7700",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9300",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9500 Communicator",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N-Gage QD",
+    "year": 2004,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1101",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1255",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1600",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2115",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2125",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2255",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2652",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3152",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3155",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3155i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3230",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5140i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6020",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6102",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6111",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6135",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6155",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6165i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6230i",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6235",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6265",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6268",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6280",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6620",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6680",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6708",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6822",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7360",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7710",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8800",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8801",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N70",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N90",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N91",
+    "year": 2005,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1110i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1265",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1315",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2272",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2310",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2365",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2610",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2855",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3250 XpressMusic",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5200",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5300",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5500 Sport",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6070",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6085",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6102i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6125",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6131",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6136",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6151",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6152",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6215i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6233",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6275",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6288",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6305i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6315i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7370",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8800 Sirocco Edition",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 9300i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E50",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E60",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E62",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E70",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N70 Music Edition",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N73",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N75",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N80",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N93",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N95",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1200",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1207",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1650",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2135",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2505",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2630",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2660",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2760",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3109 classic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3110 classic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3500 classic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5070",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5310 XpressMusic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5610 XpressMusic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5700 XpressMusic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6066",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6086",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6110 Navigator",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6120 Classic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6267",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6500 classic",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6555",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7088",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7500 Prism",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7900 Prism",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8600 Luna",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8800 Arte",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E51",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E61i",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E65",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E90 Communicator",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N73 Music Edition",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N76",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N81",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N81 8GB",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N82",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N92",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N93i",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N95 8GB",
+    "year": 2007,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1208",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1508",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1606",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1680 classic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2600 classic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2680 slide",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3110 Evolve",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3120 classic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3555",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3600 slide",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3602 slide",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3606",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3608",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3610 Fold",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5000",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5208",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5220 XpressMusic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5320 XpressMusic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5800 Navigation Edition",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6122 Classic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6205",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6210 Navigator",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6220 classic",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6260 Slide",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6300i",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6301",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6600 fold",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6650 fold",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7070 Prism",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7100 Supernova",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7210 Supernova",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7310 Supernova",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7610 Supernova",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7900 Crystal Prism",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8800 Carbon Arte",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8800 Gold Arte",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8800 Sapphire Arte",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E63",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E66",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E71",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N78",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N85",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N96",
+    "year": 2008,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1006",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1202",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1506",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1661",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2228",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2320 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2608",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2700 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2730 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3208 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3710 fold",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3711",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3720 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5030 XpressRadio",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5130 XpressMusic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5230",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5330 Mobile TV Edition",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5530 XpressMusic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5630 XpressMusic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5730 XpressMusic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5800 XpressMusic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6208 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6212 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6216 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6303 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6350",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6600i slide",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6700 classic",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6710 Navigator",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7020",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7205 Intrigue",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7208",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7510 Supernova",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7705 Twist",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8208",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E52",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E72",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E75",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N86 8MP",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N900",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N97",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N97 mini",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X3-00",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X6-00",
+    "year": 2009,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1280",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1616",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 1800",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2010",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2220 slide",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2690",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3806",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5228",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5232",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6303i classic",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6316 Slide",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6700 slide",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 7230",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C1-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C2-01",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C3-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C3-01",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C5-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C5-03",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C6-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C6-01",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C7-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E5-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E73 Mode",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N8",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X2-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X2-01",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X3-02",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X5-00",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X5-01",
+    "year": 2010,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 100 (2011)",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 101 (2011)",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 500",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 200/201",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 300",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 303",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C1-01",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C1-02",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C1-03",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C2-02",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C2-03",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C2-05",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C2-06",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia C3-01.5",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia E6-00",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 710",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 800",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N9",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia N950",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X1-00",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X2-02",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X3-02.5",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X7-00",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 103",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 109",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 111",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 112",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 113",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 114",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 808 PureView",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 202",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 205",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 302",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 305",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 306",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 308",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 309",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 311",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 500",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 510",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 610",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 810",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 820",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 822",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 900",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 920",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2013)",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 106",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 107 (2013)",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 108",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 206",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 207",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 208",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 301",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 515",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 210",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 310",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 501",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 502",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 503",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 1020",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 1320",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 1520",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 2520",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 505",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 520",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 525",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 620",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 625",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 720",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 925",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 928",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 130 (2014)",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 220",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 225",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Asha 230",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 530",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 630",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 635",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 636",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 638",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 730",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 735",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 830",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia 930",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia Lumia ICON",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia X2",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia XL 4G",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2015)",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 215",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 222",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 230",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 150 (2016)",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 216",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2017)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 130 (2017)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3310 (2017)",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 106 (2018)",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8110 4G",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2019)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 110 (2019)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 210",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 220 4G (2019)",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2720 Flip",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 125",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 150 (2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 215 4G (2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 225 4G (2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5310 (2020)",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6300 4G",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 4G (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 110 4G (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6310 (2021)",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8000 4G",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2022)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105+ (2022)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 110 (2022)",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2660 Flip",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 2760 Flip",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5710 XpressAudio",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 8210 4G",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 4G (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 106 (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 110 (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 110 4G (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 130 (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 150 (2023)",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 105 4G (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 108 4G",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 110 4G (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 125 4G",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 215 4G (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 220 4G (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 225 4G (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 230 (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 235 4G",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 3210 (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 5310 (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 6310 (2024)",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 130 Music",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Nokia",
+    "name": "Nokia 150 Music",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus One",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 3",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 5",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 6",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 7 Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 8",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 9",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S II",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy R",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S III",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Mini",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S4",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Beam",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Camera",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S Mini",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S5",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung SM-Pxx0/5",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Ace",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Mega",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Pocket",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S6",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Y",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Core",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy E",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Grand",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S7",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Trend",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Gear",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Neo",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S8",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S Active",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S9",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy J",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Note 10",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy On",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S10",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Z",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Note 20",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S20",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Note",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S21",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Watch Active",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S22",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy A",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S23",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Ring",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S24",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Siemens",
+    "name": "Siemens 2020*",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Ericsson W810i",
+    "year": 2006,
+    "image": null
+  },
+  {
+    "brand": "Sony",
+    "name": "Sony Xperia Z",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 1",
+    "year": 2011,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 1S",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 1S Youth",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 2",
+    "year": 2012,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 2S",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 3",
+    "year": 2013,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 4",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Pad",
+    "year": 2014,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 4c",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 4i",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Note",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Note Pro",
+    "year": 2015,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 5",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi MIX",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Note 2",
+    "year": 2016,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 5c",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi MIX 2",
+    "year": 2017,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 8",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 8 Explorer",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 8 Lite",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi A2",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi MIX 2S",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi MIX 3",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Pad 4 Plus",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Play",
+    "year": 2018,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 9",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 9 LiteChina: Mi CC9",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 9T",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 9T Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi CC9 Pro",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi CC9Global: Mi 9 Lite",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi MIX 3 5G",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Note 10",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Redmi Note 7",
+    "year": 2019,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10 Lite Zoom",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10 Ultra",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10T",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi Note 10 Lite",
+    "year": 2020,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 11 Lite 5G NEChina: Mi 11 LE",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 11T",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 12",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Civi",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10i",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10S",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 11",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 11 Lite",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 11i",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi MIX Fold",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi MIX 4",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Pad 5",
+    "year": 2021,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 11i",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 12 Pro Dimensity",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 12T",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 13",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Civi 1S",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Civi 2",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi MIX Fold 2",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Pad 5 Pro 12.4",
+    "year": 2022,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 13 Lite",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 13 Ultra",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 14",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Civi 3",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi MIX Fold 3",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Pad 6",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Pad 6 Max 14",
+    "year": 2023,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 14 CiviChina: Xiaomi Civi 4 Pro",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 14 Ultra",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 14T",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 15",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Civi 4 ProIndia: Xiaomi 14 Civi",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Pad 6S Pro 12.4",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Pad 7Poco Pad X1",
+    "year": 2024,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 15 Ultra",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 17",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 17 Ultra/Leica Edition",
+    "year": 2025,
+    "image": null
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi Civi 5 Pro",
+    "year": 2025,
+    "image": null
+  }
+]
