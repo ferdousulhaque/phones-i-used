@@ -777,17 +777,16 @@
 
       focusedIndex = -1;
       dropdown.innerHTML = results.map(function(r, i) {
-        return '<div class="autocomplete-item" data-index="' + i + '" data-name="' + escapeHtml(r.item.name) + '" data-year="' + r.item.year + '">'
+        return '<div class="autocomplete-item" data-index="' + i + '" data-name="' + escapeHtml(r.item.name) + '">'
           + '<span class="autocomplete-brand">' + escapeHtml(r.item.brand) + '</span> · '
-          + escapeHtml(r.item.name) + ' · '
-          + '<span class="autocomplete-brand">' + r.item.year + '</span>'
+          + escapeHtml(r.item.name)
           + '</div>';
       }).join('');
 
       dropdown.querySelectorAll('.autocomplete-item').forEach(function(item) {
         item.addEventListener('mousedown', function(e) {
           e.preventDefault();
-          selectAutocompleteItem(entryId, item.dataset.name, item.dataset.year);
+          selectAutocompleteItem(entryId, item.dataset.name);
         });
       });
 
@@ -803,9 +802,8 @@
       }
     }
 
-    function selectAutocompleteItem(entryId, name, year) {
+    function selectAutocompleteItem(entryId, name) {
       updateEntry(entryId, 'name', name);
-      updateEntry(entryId, 'year', year);
       clearError(entryId);
       hideAutocomplete();
       renderEntries();
@@ -828,7 +826,7 @@
       } else if (e.key === 'Enter' && focusedIndex >= 0) {
         e.preventDefault();
         var item = items[focusedIndex];
-        selectAutocompleteItem(entryId, item.dataset.name, item.dataset.year);
+        selectAutocompleteItem(entryId, item.dataset.name);
       } else if (e.key === 'Escape') {
         hideAutocomplete();
       }
