@@ -289,6 +289,56 @@
       color: rgba(255, 255, 255, 0.4);
       font-size: 0.75rem;
     }
+
+    /* ─── Mobile Responsive ──────────────────────────── */
+    @media (max-width: 767px) {
+      .h-timeline-wrap {
+        padding: 0 16px;
+      }
+
+      .h-timeline {
+        min-height: 380px;
+      }
+
+      .h-entry .h-card {
+        max-width: 140px;
+      }
+    }
+
+    /* ─── Landscape Mode (both mobile & tablet) ──────── */
+    @media (orientation: landscape) {
+      .h-timeline-wrap {
+        padding: 0 24px;
+        overflow-x: hidden;
+      }
+
+      .h-timeline {
+        min-height: 320px;
+      }
+
+      .h-entry {
+        flex: 1 1 0%;
+      }
+
+      .scrollable .h-entry {
+        flex: 0 0 180px;
+      }
+    }
+
+    /* ─── Desktop ────────────────────────────────────── */
+    @media (min-width: 768px) {
+      .h-timeline-wrap {
+        padding: 0 32px;
+      }
+
+      .h-timeline {
+        min-height: 440px;
+      }
+
+      .h-entry .h-card {
+        max-width: 180px;
+      }
+    }
   </style>
 </head>
 
@@ -628,6 +678,16 @@
         `;
       }).join('');
 
+      // Hide toggle button if 6 or fewer handsets
+      const toggleBtn = document.getElementById('btn-view-toggle');
+      if (toggleBtn) {
+        if (phones.length <= 6) {
+          toggleBtn.style.display = 'none';
+        } else {
+          toggleBtn.style.display = 'flex';
+        }
+      }
+
       // Stagger animation
       requestAnimationFrame(() => {
         const entryEls = timelineEntries.querySelectorAll('.h-entry');
@@ -636,18 +696,40 @@
         });
       });
 
-      // Reset view toggle state
-      isScrollableView = false;
+      // Reset view toggle state based on device
+      const shouldScroll = shouldDefaultScrollable();
+      isScrollableView = shouldScroll;
       const container = document.getElementById('timeline-container');
-      container.classList.remove('scrollable');
-      removeDragScroll(container);
-      const label = document.getElementById('toggle-label');
-      const icon = document.getElementById('toggle-icon');
-      if (label) label.textContent = 'Scrollable View';
-      if (icon) icon.innerHTML = '<path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01"/>';
+
+      if (shouldScroll) {
+        container.classList.add('scrollable');
+        setupDragScroll(container);
+        const label = document.getElementById('toggle-label');
+        const icon = document.getElementById('toggle-icon');
+        if (label) label.textContent = 'Fit to Screen';
+        if (icon) icon.innerHTML = '<path d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/>';
+      } else {
+        container.classList.remove('scrollable');
+        container.scrollLeft = 0;
+        removeDragScroll(container);
+        const label = document.getElementById('toggle-label');
+        const icon = document.getElementById('toggle-icon');
+        if (label) label.textContent = 'Scrollable View';
+        if (icon) icon.innerHTML = '<path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01"/>';
+      }
 
       // Fetch all phone images from Wikipedia
       loadTimelineImages();
+    }
+
+    // ─── Device orientation & responsive detection ──────────────────────
+    function isLandscape() {
+      return window.matchMedia('(orientation: landscape)').matches;
+    }
+
+    function shouldDefaultScrollable() {
+      const isMobile = window.matchMedia('(max-width: 767px)').matches;
+      return isMobile && !isLandscape();
     }
 
     // ─── Toggle between fit-to-screen and scrollable view ──────────────
@@ -949,6 +1031,18 @@
     }
 
     init();
+
+    window.addEventListener('orientationchange', function() {
+      // Only apply if timeline is visible
+      if (!timelinePanel.classList.contains('hidden')) {
+        const newShouldScroll = shouldDefaultScrollable();
+
+        // Only toggle if state needs to change
+        if (newShouldScroll !== isScrollableView) {
+          toggleTimelineView();
+        }
+      }
+    });
 
     document.addEventListener('click', function(e) {
       if (activeDropdown && !e.target.closest('.relative')) {
