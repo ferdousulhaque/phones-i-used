@@ -27,6 +27,8 @@ SESSION.headers.update({
 })
 
 WIKI_BASE = "https://en.wikipedia.org"
+WIKI_API = "https://en.wikipedia.org/w/api.php"
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 
 BRAND_PAGES = {
     "Nokia": "/wiki/List_of_Nokia_products",
@@ -174,32 +176,149 @@ def extract_year(text):
     return None
 
 
-def get_thumbnail_from_article(article_path):
-    """Fetch a phone's Wikipedia article and extract the infobox thumbnail URL."""
-    soup = fetch_page(article_path)
-    if not soup:
-        return None
+def fetch_images_for_phones(phones):
+    """Fetch images for all phones via Wikipedia API + Wikimedia Commons fallback."""
+    print("\nFetching images...")
 
-    infobox = soup.find("table", class_="infobox")
-    if infobox:
-        img = infobox.find("img")
-        if img and img.get("src"):
-            src = img["src"]
-            if src.startswith("//"):
-                src = "https:" + src
-            src = re.sub(r'/(\d+)px-', '/200px-', src)
-            return src
+    # Phase 1: batch fetch from Wikipedia API for phones with article paths
+    title_to_indices = {}
+    for i, phone in enumerate(phones):
+        path = phone.get("_article_path")
+        if path and path.startswith("/wiki/"):
+            title = path[6:]
+            title_to_indices.setdefault(title, []).append(i)
 
-    content = soup.find("div", class_="mw-parser-output")
-    if content:
-        img = content.find("img", width=True)
-        if img and img.get("src") and int(img.get("width", 0)) > 50:
-            src = img["src"]
-            if src.startswith("//"):
-                src = "https:" + src
-            src = re.sub(r'/(\d+)px-', '/200px-', src)
-            return src
+    if title_to_indices:
+        titles = list(title_to_indices.keys())
+        print(f"  Phase 1: Wikipedia API for {len(titles)} articles...")
+        for batch_start in range(0, len(titles), 50):
+            batch = titles[batch_start:batch_start + 50]
+            params = {
+                "action": "query",
+                "titles": "|".join(batch),
+                "prop": "pageimages",
+                "pithumbsize": 250,
+                "format": "json",
+                "pilicense": "any",
+            }
+            try:
+                resp = SESSION.get(WIKI_API, params=params, timeout=15)
+                resp.raise_for_status()
+                data = resp.json()
+                norm_map = {}
+                for n in data.get("query", {}).get("normalized", []):
+                    norm_map[n["to"]] = n["from"]
+                for page in data.get("query", {}).get("pages", {}).values():
+                    title = page.get("title", "")
+                    thumb = page.get("thumbnail", {}).get("source")
+                    if not thumb:
+                        continue
+                    orig = norm_map.get(title, title.replace(" ", "_"))
+                    indices = title_to_indices.get(orig, [])
+                    if not indices:
+                        indices = title_to_indices.get(title.replace(" ", "_"), [])
+                    for idx in indices:
+                        phones[idx]["image"] = thumb
+                time.sleep(1)
+            except Exception as e:
+                print(f"    Warning: batch fetch failed: {e}", file=sys.stderr)
 
+    count = sum(1 for p in phones if p.get("image"))
+    print(f"  After phase 1: {count}/{len(phones)} have images")
+
+    # Phase 2: search Wikipedia by phone name for remaining phones
+    without = [i for i, p in enumerate(phones) if not p.get("image")]
+    if without:
+        print(f"  Phase 2: Wikipedia name lookup for {len(without)} phones...")
+        for batch_start in range(0, len(without), 50):
+            batch_indices = without[batch_start:batch_start + 50]
+            search_titles = [phones[i]["name"].replace(" ", "_") for i in batch_indices]
+            params = {
+                "action": "query",
+                "titles": "|".join(search_titles),
+                "prop": "pageimages",
+                "pithumbsize": 250,
+                "format": "json",
+                "pilicense": "any",
+                "redirects": "1",
+            }
+            try:
+                resp = SESSION.get(WIKI_API, params=params, timeout=15)
+                resp.raise_for_status()
+                data = resp.json()
+                norm_map = {}
+                for n in data.get("query", {}).get("normalized", []):
+                    norm_map[n["to"]] = n["from"]
+                for r in data.get("query", {}).get("redirects", []):
+                    norm_map[r["to"]] = r["from"]
+                for page in data.get("query", {}).get("pages", {}).values():
+                    if int(page.get("pageid", -1)) < 0:
+                        continue
+                    title = page.get("title", "")
+                    thumb = page.get("thumbnail", {}).get("source")
+                    if not thumb:
+                        continue
+                    orig = norm_map.get(title, title)
+                    for i in batch_indices:
+                        name_key = phones[i]["name"].replace(" ", "_")
+                        if name_key == orig.replace(" ", "_") or name_key == title.replace(" ", "_"):
+                            phones[i]["image"] = thumb
+                time.sleep(1)
+            except Exception as e:
+                print(f"    Warning: name lookup failed: {e}", file=sys.stderr)
+
+    count = sum(1 for p in phones if p.get("image"))
+    print(f"  After phase 2: {count}/{len(phones)} have images")
+
+    # Phase 3: search Wikimedia Commons for remaining phones
+    still_without = [i for i, p in enumerate(phones) if not p.get("image")]
+    if still_without:
+        print(f"  Phase 3: Wikimedia Commons search for {len(still_without)} phones...")
+        for idx in still_without:
+            image = search_commons_image(phones[idx]["name"])
+            if image:
+                phones[idx]["image"] = image
+
+    count = sum(1 for p in phones if p.get("image"))
+    print(f"  Final: {count}/{len(phones)} have images")
+
+
+def search_commons_image(phone_name):
+    """Search Wikimedia Commons for a phone image. Returns thumbnail URL or None."""
+    for query in [f'"{phone_name}"', phone_name]:
+        params = {
+            "action": "query",
+            "list": "search",
+            "srsearch": query,
+            "srnamespace": 6,
+            "srlimit": 5,
+            "format": "json",
+        }
+        try:
+            resp = SESSION.get(COMMONS_API, params=params, timeout=15)
+            resp.raise_for_status()
+            results = resp.json().get("query", {}).get("search", [])
+            for r in results:
+                title = r.get("title", "")
+                if not re.search(r'\.(jpg|jpeg|png)$', title, re.IGNORECASE):
+                    continue
+                img_params = {
+                    "action": "query",
+                    "titles": title,
+                    "prop": "imageinfo",
+                    "iiprop": "url",
+                    "iiurlwidth": 250,
+                    "format": "json",
+                }
+                resp2 = SESSION.get(COMMONS_API, params=img_params, timeout=15)
+                resp2.raise_for_status()
+                for page in resp2.json().get("query", {}).get("pages", {}).values():
+                    info = page.get("imageinfo", [])
+                    if info and info[0].get("thumburl"):
+                        return info[0]["thumburl"]
+            time.sleep(1)
+        except Exception as e:
+            print(f"    Warning: Commons search failed for {phone_name}: {e}", file=sys.stderr)
     return None
 
 
@@ -251,15 +370,12 @@ def scrape_brand_phones(brand, page_path):
             if link and link.get("href", "").startswith("/wiki/"):
                 article_path = link["href"]
 
-            image = None
-            if article_path:
-                image = get_thumbnail_from_article(article_path)
-
             phones.append({
                 "brand": brand,
                 "name": name,
                 "year": year,
-                "image": image,
+                "image": None,
+                "_article_path": article_path,
             })
 
     if not phones:
@@ -293,13 +409,12 @@ def scrape_brand_phones(brand, page_path):
                     continue
                 seen_names.add(name.lower())
 
-                image = get_thumbnail_from_article(link["href"])
-
                 phones.append({
                     "brand": brand,
                     "name": name,
                     "year": year,
-                    "image": image,
+                    "image": None,
+                    "_article_path": link["href"],
                 })
 
     print(f"  Found {len(phones)} models for {brand}")
@@ -335,8 +450,12 @@ def main():
         all_phones.extend(phones)
 
     all_phones = merge_fallbacks(all_phones)
+    fetch_images_for_phones(all_phones)
 
     all_phones.sort(key=lambda p: (p["brand"].lower(), p["year"], p["name"].lower()))
+
+    for p in all_phones:
+        p.pop("_article_path", None)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_phones, f, indent=2, ensure_ascii=False)
