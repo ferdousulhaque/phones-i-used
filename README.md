@@ -4,6 +4,8 @@ A small nostalgia project for visualizing the phones you've owned or used over t
 
 This repo contains a single-page web app that renders a horizontal timeline of devices, plus a helper script to gather phone model data from Wikipedia.
 
+My One: https://ferdousulhaque.github.io/phones-i-used/#phones=2000%2CSiemens%20C35%7C2003%2CSiemens%20M65%7C2005%2CNokia%206630%7C2007%2CSamsung%20GH6%7C2014%2CApple%20iPhone%204s%7C2016%2CMotorola%20V2288%7C2020%2CApple%20iPhone%2013%20Pro
+
 ## What it does
 
 - Displays a visual timeline of phones by year
