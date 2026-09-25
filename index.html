@@ -412,6 +412,10 @@
             📋 Copy
           </button>
         </div>
+        <button id="btn-native-share" onclick="nativeShare()" class="hidden w-full mb-4 bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-base py-3 rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-95 cursor-pointer">
+          <svg class="w-5 h-5 inline-block mr-2 -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          Share
+        </button>
         <div class="flex flex-wrap justify-center gap-3">
           <a id="share-twitter" href="#" target="_blank" rel="noopener"
             class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
@@ -634,6 +638,8 @@
       shareTwitter.href = `https://twitter.com/intent/tweet?text=${shareText}&url=${shareLink}`;
       shareWhatsapp.href = `https://wa.me/?text=${shareText}%20${shareLink}`;
       shareFacebook.href = `https://www.facebook.com/sharer/sharer.php?u=${shareLink}`;
+
+      updateNativeShareButton();
     }
 
     function renderTimeline(phones) {
@@ -799,6 +805,27 @@
       timelinePanel.classList.add('hidden');
       inputPanel.classList.remove('hidden');
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ─── Native share (mobile) ─────────────────────────────────────────
+    function nativeShare() {
+      if (!navigator.share) return;
+      navigator.share({
+        title: '📱 Phones I Used — My Phone Timeline',
+        text: 'Check out the phones I\'ve used over the years!',
+        url: window.location.href,
+      }).catch(function() {});
+    }
+
+    function updateNativeShareButton() {
+      var btn = document.getElementById('btn-native-share');
+      if (!btn) return;
+      var isMobile = window.matchMedia('(max-width: 767px)').matches;
+      if (isMobile && navigator.share) {
+        btn.classList.remove('hidden');
+      } else {
+        btn.classList.add('hidden');
+      }
     }
 
     // ─── Copy link ───────────────────────────────────────────────────────
@@ -1031,6 +1058,8 @@
     }
 
     init();
+
+    window.addEventListener('resize', updateNativeShareButton);
 
     window.addEventListener('orientationchange', function() {
       // Only apply if timeline is visible
