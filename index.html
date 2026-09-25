@@ -41,17 +41,17 @@
           },
           colors: {
             brand: {
-              50: '#f0f0ff',
-              100: '#e0e1ff',
-              200: '#c7c8fe',
-              300: '#a4a5fc',
-              400: '#8183f8',
-              500: '#6366f1',
-              600: '#4f46e5',
-              700: '#4338ca',
-              800: '#3730a3',
-              900: '#312e81',
-              950: '#1e1b4b',
+              50: '#e0f7ff',
+              100: '#b3ecff',
+              200: '#80dfff',
+              300: '#4dd4ff',
+              400: '#1ac4ff',
+              500: '#00a8ff',
+              600: '#0088dd',
+              700: '#0066bb',
+              800: '#004488',
+              900: '#002266',
+              950: '#001144',
             }
           },
           animation: {
@@ -86,30 +86,30 @@
     }
 
     ::-webkit-scrollbar-thumb {
-      background: rgba(99, 102, 241, 0.3);
+      background: rgba(0, 168, 255, 0.3);
       border-radius: 3px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-      background: rgba(99, 102, 241, 0.5);
+      background: rgba(0, 168, 255, 0.5);
     }
 
     /* Glass card */
     .glass-card {
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(0, 168, 255, 0.03);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(0, 168, 255, 0.25);
     }
 
     /* Dot glow */
     .dot-glow {
-      box-shadow: 0 0 12px rgba(99, 102, 241, 0.6), 0 0 24px rgba(168, 85, 247, 0.3);
+      box-shadow: 0 0 12px rgba(0, 168, 255, 0.9), 0 0 24px rgba(0, 168, 255, 0.6), 0 0 36px rgba(0, 212, 255, 0.3);
     }
 
     /* Input glow on focus */
     input:focus {
-      box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+      box-shadow: 0 0 0 2px rgba(0, 168, 255, 0.6), 0 0 8px rgba(0, 212, 255, 0.4);
     }
 
     /* ─── Horizontal Timeline ─────────────────────────── */
@@ -124,7 +124,7 @@
       cursor: grab;
       -webkit-overflow-scrolling: touch;
       scrollbar-width: thin;
-      scrollbar-color: rgba(99, 102, 241, 0.3) transparent;
+      scrollbar-color: rgba(0, 168, 255, 0.3) transparent;
     }
 
     .h-timeline-wrap.scrollable:active {
@@ -136,7 +136,7 @@
     }
 
     .h-timeline-wrap.scrollable::-webkit-scrollbar-thumb {
-      background: rgba(99, 102, 241, 0.25);
+      background: rgba(0, 168, 255, 0.25);
       border-radius: 2px;
     }
 
@@ -160,9 +160,43 @@
       left: 0;
       right: 0;
       height: 3px;
-      background: linear-gradient(to right, #6366f1, #a855f7, #ec4899, #f43f5e);
+      background: linear-gradient(to right, #0066bb, #00a8ff, #1ac4ff, #00a8ff);
       transform: translateY(-50%);
       border-radius: 2px;
+      box-shadow: 0 0 8px rgba(0, 168, 255, 0.6);
+    }
+
+    /* Timeline pulse animation */
+    .h-timeline::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.8), rgba(0, 168, 255, 0.6), transparent);
+      transform: translateY(-50%);
+      border-radius: 2px;
+      animation: pulseRight 3s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    @keyframes pulseRight {
+      0% {
+        left: 0;
+        right: auto;
+        width: 0%;
+      }
+      50% {
+        left: auto;
+        right: 0;
+        width: 100%;
+      }
+      100% {
+        left: auto;
+        right: 0;
+        width: 0%;
+      }
     }
 
     /* Individual entry column */
@@ -204,7 +238,7 @@
       position: absolute;
       width: 2px;
       height: 20px;
-      background: rgba(255, 255, 255, 0.15);
+      background: rgba(0, 168, 255, 0.25);
       left: 50%;
       transform: translateX(-50%);
     }
@@ -251,10 +285,10 @@
       z-index: 50;
       max-height: 240px;
       overflow-y: auto;
-      background: rgba(30, 27, 75, 0.95);
+      background: rgba(0, 20, 40, 0.95);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(0, 168, 255, 0.4);
       border-radius: 12px;
       margin-top: 4px;
       display: none;
@@ -268,7 +302,7 @@
       padding: 8px 12px;
       cursor: pointer;
       font-size: 0.875rem;
-      color: rgba(255, 255, 255, 0.8);
+      color: rgba(0, 212, 255, 0.9);
       transition: background 0.15s;
     }
 
@@ -282,11 +316,11 @@
 
     .autocomplete-item.focused,
     .autocomplete-item:hover {
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 168, 255, 0.15);
     }
 
     .autocomplete-brand {
-      color: rgba(255, 255, 255, 0.4);
+      color: rgba(0, 168, 255, 0.7);
       font-size: 0.75rem;
     }
 
@@ -342,12 +376,12 @@
   </style>
 </head>
 
-<body class="min-h-screen bg-gradient-to-br from-gray-950 via-brand-950 to-gray-900 text-white font-sans antialiased">
+<body class="min-h-screen bg-black text-white font-sans antialiased">
 
   <!-- Hero / Header -->
   <header class="text-center pt-12 pb-6 px-4">
     <h1 class="text-5xl md:text-6xl font-black tracking-tight animate-fade-in">
-      <span class="bg-gradient-to-r from-brand-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Phones I
+      <span class="bg-gradient-to-r from-brand-400 via-brand-300 to-brand-500 bg-clip-text text-transparent">Phones I
         Used</span>
     </h1>
     <p class="mt-3 text-lg md:text-xl text-gray-400 max-w-xl mx-auto animate-fade-in" style="animation-delay:0.15s">
@@ -362,7 +396,7 @@
     <section id="input-panel" class="glass-card rounded-2xl p-6 md:p-8 mb-12 animate-fade-in"
       style="animation-delay:0.3s">
       <div class="flex items-center justify-between mb-6">
-        <h2 class="text-xl font-bold text-white/90">📝 Add Your Phones</h2>
+        <h2 class="text-xl font-bold text-white">📝 Add Your Phones</h2>
         <button id="btn-add" onclick="addEntry()"
           class="flex items-center gap-1.5 bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-4 py-2 rounded-xl transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
@@ -377,17 +411,17 @@
       </div>
 
       <button id="btn-generate" onclick="generateTimeline()"
-        class="mt-8 w-full bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-lg py-3.5 rounded-xl transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-brand-600/25 cursor-pointer">
+        class="mt-8 w-full bg-gradient-to-r from-brand-500 via-brand-400 to-brand-300 hover:from-brand-400 hover:via-brand-300 hover:to-brand-200 text-white font-bold text-lg py-3.5 rounded-xl transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-blue-500/25 cursor-pointer">
         🚀 Generate Timeline
       </button>
     </section>
 
     <!-- Timeline Panel -->
     <section id="timeline-panel" class="hidden" style="max-width:100vw; margin-left:calc(-50vw + 50%); margin-right:calc(-50vw + 50%); padding-left:16px; padding-right:16px;">
-      <h2 class="text-2xl font-bold text-center mb-4 text-white/90">📱 My Phone Timeline</h2>
+      <h2 class="text-2xl font-bold text-center mb-4 text-white">📱 My Phone Timeline</h2>
       <div class="flex justify-center mb-8">
         <button id="btn-view-toggle" onclick="toggleTimelineView()"
-          class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-gray-400 hover:text-white text-sm font-medium px-4 py-2 rounded-xl transition-all duration-200 cursor-pointer">
+          class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-gray-400 hover:text-white text-sm font-medium px-4 py-2 rounded-xl transition-all duration-200 cursor-pointer">
           <svg id="toggle-icon" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01"/>
           </svg>
@@ -403,10 +437,10 @@
 
       <!-- Share Section -->
       <div id="share-section" class="glass-card rounded-2xl p-6 md:p-8 mt-14">
-        <h3 class="text-lg font-bold text-center mb-4 text-white/90">🔗 Share Your Timeline</h3>
+        <h3 class="text-lg font-bold text-center mb-4 text-white">🔗 Share Your Timeline</h3>
         <div class="flex items-center gap-2 mb-5">
           <input id="share-url" type="text" readonly
-            class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-gray-300 outline-none truncate" />
+            class="flex-1 bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-gray-300 outline-none truncate" />
           <button onclick="copyLink()" id="btn-copy"
             class="bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-5 py-3 rounded-xl transition-all duration-200 hover:scale-105 active:scale-95 whitespace-nowrap cursor-pointer">
             📋 Copy
@@ -416,21 +450,21 @@
             ⭐ Bookmark
           </button>
         </div>
-        <button id="btn-native-share" onclick="nativeShare()" class="hidden w-full mb-4 bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-base py-3 rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-95 cursor-pointer">
+        <button id="btn-native-share" onclick="nativeShare()" class="hidden w-full mb-4 bg-gradient-to-r from-brand-500 via-brand-400 to-brand-300 hover:from-brand-400 hover:via-brand-300 hover:to-brand-200 text-white font-bold text-base py-3 rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-95 cursor-pointer">
           <svg class="w-5 h-5 inline-block mr-2 -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
           Share
         </button>
         <div class="flex flex-wrap justify-center gap-3">
           <a id="share-twitter" href="#" target="_blank" rel="noopener"
-            class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
+            class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
             𝕏 Post on X
           </a>
           <a id="share-whatsapp" href="#" target="_blank" rel="noopener"
-            class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
+            class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
             💬 WhatsApp
           </a>
           <a id="share-facebook" href="#" target="_blank" rel="noopener"
-            class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
+            class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-sm font-medium px-5 py-2.5 rounded-xl transition-all duration-200 hover:scale-105">
             📘 Facebook
           </a>
         </div>
@@ -447,17 +481,17 @@
       <!-- Create Your Own CTA -->
       <div class="text-center mt-10">
         <button onclick="startFresh()"
-          class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-lg px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-brand-600/25 cursor-pointer">
+          class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-500 via-brand-400 to-brand-300 hover:from-brand-400 hover:via-brand-300 hover:to-brand-200 text-white font-bold text-lg px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/25 cursor-pointer">
           ✨ Create Your Own Timeline
         </button>
-        <p class="text-gray-500 text-xs mt-3">Build your own phone history and share it with friends!</p>
+        <p class="text-gray-400 text-xs mt-3">Build your own phone history and share it with friends!</p>
       </div>
     </section>
 
   </main>
 
   <!-- Footer -->
-  <footer class="text-center pb-8 text-gray-600 text-xs">
+  <footer class="text-center pb-8 text-gray-400 text-xs">
     Made with ❤️ for phone nostalgia · No data stored · Everything lives in the URL
   </footer>
 
@@ -493,7 +527,7 @@
       entriesContainer.innerHTML = entries.map((entry, i) => `
         <div class="animate-fade-in" data-id="${entry.id}">
           <div class="flex items-center gap-3">
-            <div class="flex items-center gap-1 text-gray-500 text-sm font-mono w-6 justify-end">${i + 1}.</div>
+            <div class="flex items-center gap-1 text-gray-400 text-sm font-mono w-6 justify-end">${i + 1}.</div>
             <input
               id="year-${entry.id}"
               type="number"
@@ -503,7 +537,7 @@
               value="${entry.year}"
               oninput="updateEntry(${entry.id}, 'year', this.value); clearError(${entry.id});"
               onblur="(function(id, val){ var r=validateYear(val); if(!r.valid) showError(id,r.message); })(${entry.id}, this.value)"
-              class="w-24 bg-white/5 border border-white/10 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+              class="w-24 bg-gray-800 border border-gray-700 rounded-xl px-3 py-2.5 text-sm text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-brand-500"
             />
             <div class="flex-1 relative">
               <input
@@ -513,10 +547,10 @@
                 oninput="updateEntry(${entry.id}, 'name', this.value); showAutocomplete(this, ${entry.id}, this.value)"
                 onkeydown="handleAutocompleteKeydown(event, ${entry.id})"
                 onblur="setTimeout(hideAutocomplete, 150)"
-                class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-600 outline-none transition-all duration-200 focus:border-brand-500"
+                class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-brand-500"
               />
             </div>
-            <button onclick="removeEntry(${entry.id})" class="text-gray-600 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
+            <button onclick="removeEntry(${entry.id})" class="text-gray-400 hover:text-red-400 transition-colors p-1 cursor-pointer" title="Remove">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
             </button>
           </div>
@@ -649,13 +683,13 @@
     function renderTimeline(phones) {
       // Color palette for year badges
       const colors = [
-        'from-brand-500 to-purple-500',
-        'from-purple-500 to-pink-500',
-        'from-pink-500 to-rose-500',
-        'from-amber-500 to-orange-500',
-        'from-emerald-500 to-teal-500',
-        'from-cyan-500 to-blue-500',
-        'from-blue-500 to-brand-500',
+        'from-brand-500 to-brand-300',
+        'from-brand-300 to-brand-400',
+        'from-brand-400 to-brand-500',
+        'from-brand-200 to-brand-400',
+        'from-brand-300 to-brand-500',
+        'from-brand-500 to-brand-200',
+        'from-brand-400 to-brand-300',
       ];
 
       timelineEntries.innerHTML = phones.map((phone, i) => {
@@ -670,11 +704,11 @@
 
             <!-- Card -->
             <div class="h-card ${side}">
-              <div class="glass-card rounded-xl p-4 hover:bg-white/[0.08] transition-all duration-300 hover:scale-105 group text-center">
+              <div class="glass-card rounded-xl p-4 hover:bg-gray-700 transition-all duration-300 hover:scale-105 group text-center">
                 <div class="phone-img-container flex justify-center items-center" style="height:100px;" data-phone="${escapeHtml(phone.name)}">
-                  <div class="img-spinner" style="width:24px;height:24px;border:2px solid rgba(99,102,241,0.4);border-top-color:#6366f1;border-radius:50%;animation:spin 0.8s linear infinite;"></div>
+                  <div class="img-spinner" style="width:24px;height:24px;border:2px solid rgba(0,168,255,0.4);border-top-color:#00a8ff;border-radius:50%;animation:spin 0.8s linear infinite;"></div>
                 </div>
-                <h3 class="text-sm font-bold text-white/90 mt-1.5 leading-snug">${escapeHtml(phone.name)}</h3>
+                <h3 class="text-sm font-bold text-white mt-1.5 leading-snug">${escapeHtml(phone.name)}</h3>
               </div>
             </div>
 
