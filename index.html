@@ -411,6 +411,10 @@
             class="bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-5 py-3 rounded-xl transition-all duration-200 hover:scale-105 active:scale-95 whitespace-nowrap cursor-pointer">
             📋 Copy
           </button>
+          <button onclick="bookmarkLink()" id="btn-bookmark"
+            class="bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-5 py-3 rounded-xl transition-all duration-200 hover:scale-105 active:scale-95 whitespace-nowrap cursor-pointer">
+            ⭐ Bookmark
+          </button>
         </div>
         <button id="btn-native-share" onclick="nativeShare()" class="hidden w-full mb-4 bg-gradient-to-r from-brand-600 via-purple-600 to-pink-600 hover:from-brand-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold text-base py-3 rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-95 cursor-pointer">
           <svg class="w-5 h-5 inline-block mr-2 -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
@@ -836,6 +840,46 @@
         btn.textContent = '✅ Copied!';
         setTimeout(() => btn.textContent = original, 2000);
       });
+    }
+
+    // ─── Bookmark link ────────────────────────────────────────────────────
+    function bookmarkLink() {
+      const btn = document.getElementById('btn-bookmark');
+      const url = shareUrl.value;
+      const title = '📱 Phones I Used — My Phone Timeline';
+
+      if (navigator.bookmarks && typeof navigator.bookmarks.create === 'function') {
+        navigator.bookmarks.create({
+          title: title,
+          url: url,
+        }).then(() => {
+          const original = btn.textContent;
+          btn.textContent = '✅ Bookmarked!';
+          setTimeout(() => btn.textContent = original, 2000);
+        }).catch(() => {
+          showBookmarkFallback();
+        });
+      } else {
+        showBookmarkFallback();
+      }
+    }
+
+    function showBookmarkFallback() {
+      const btn = document.getElementById('btn-bookmark');
+      const userAgent = navigator.userAgent.toLowerCase();
+      let instructions = '';
+
+      if (userAgent.includes('mac')) {
+        instructions = '⌘ + D to bookmark';
+      } else if (userAgent.includes('windows') || userAgent.includes('linux')) {
+        instructions = 'Ctrl + D to bookmark';
+      } else {
+        instructions = 'Use your browser\'s bookmark menu';
+      }
+
+      const original = btn.textContent;
+      btn.textContent = instructions;
+      setTimeout(() => btn.textContent = original, 3000);
     }
 
     // ─── Escape HTML ─────────────────────────────────────────────────────
